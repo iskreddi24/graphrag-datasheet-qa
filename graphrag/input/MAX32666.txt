@@ -1,0 +1,31 @@
+# Semiconductor Technical Datasheet: MAX32666
+
+## 1. Product Overview & Identity
+- Part Identifier: MAX32666
+- Product Title: Analog Devices / Maxim Low-Power Dual-Core BLE MCU
+- Semiconductor Classification: Wireless SoC
+- Original Manufacturer: Analog Devices
+- Physical Packaging: WLP-108 (4.4x4.4mm)
+- Thermal Operating Specification: -40°C to +105°C
+
+## 2. Processing Core & Architectural Profile
+- Core Architecture: Dual-core Arm Cortex-M4F with FPU + BLE 5.2
+- Peak Operating Clock: 96 MHz
+- Integrated Non-Volatile Flash: 1024 KB
+- High-Speed Static RAM (SRAM): 560 KB
+
+## 3. Electrical & Power Ratings
+- Minimum Recommended Supply Voltage: 1.71 V
+- Maximum Recommended Supply Voltage: 3.6 V
+- Typical Active Operating Current: 8.5 mA (at nominal clock)
+- Low-Power Sleep / Leakage Current: 1.5 uA (deep standby)
+
+## 4. Hardware Interfaces & Peripheral Buses
+- Supported Protocols and Busses: BLE 5.2, SPI, I2C, UART, 1-Wire, USB-FS
+
+## 5. System Interoperability & Companion ICs
+- Verified Compatible Companion Devices: BME688-MEMS, ATECC608A-TNGTLS
+- Primary Deployment Target Verticals: Clinical Patient Monitoring, Wearable Biosensing, Smart Hearables, Sports Telemetry
+
+## 6. Critical Silicon Errata & Engineering Guidelines
+SIMO buck regulator output voltages must be sequenced in strict order (VREG1 -> VREG2) during cold power-on. Wafer-Level Packaging (WLP) requires underfill epoxy to mitigate solder fatigue in thermal cycling.

@@ -1,0 +1,31 @@
+# Semiconductor Technical Datasheet: STM32H743ZI
+
+## 1. Product Overview & Identity
+- Part Identifier: STM32H743ZI
+- Product Title: STMicroelectronics STM32H7 High-Performance MCU
+- Semiconductor Classification: Microcontroller
+- Original Manufacturer: STMicroelectronics
+- Physical Packaging: LQFP-144 (20x20mm)
+- Thermal Operating Specification: -40°C to +85°C
+
+## 2. Processing Core & Architectural Profile
+- Core Architecture: 32-bit Arm Cortex-M7 with DP-FPU
+- Peak Operating Clock: 480 MHz
+- Integrated Non-Volatile Flash: 2048 KB
+- High-Speed Static RAM (SRAM): 1024 KB
+
+## 3. Electrical & Power Ratings
+- Minimum Recommended Supply Voltage: 1.71 V
+- Maximum Recommended Supply Voltage: 3.6 V
+- Typical Active Operating Current: 220.0 mA (at nominal clock)
+- Low-Power Sleep / Leakage Current: 2.8 uA (deep standby)
+
+## 4. Hardware Interfaces & Peripheral Buses
+- Supported Protocols and Busses: CAN-FD, SPI, I2C, UART, Ethernet 10/100, USB-OTG, SAI
+
+## 5. System Interoperability & Companion ICs
+- Verified Compatible Companion Devices: SX1262-LORA, ATECC608A-TNGTLS
+- Primary Deployment Target Verticals: Industrial Automation, Motor Control, High-End Audio, Avionics Telemetry
+
+## 6. Critical Silicon Errata & Engineering Guidelines
+Errata ES0392: AXI SRAM concurrent DMA reads during high-speed burst transfers may cause clock synchronization stalls unless AHB priority arbitration is configured. External SMPS power supply requires 4.7uH inductor.

@@ -1,0 +1,1610 @@
+{
+  "nodes": [
+    {
+      "id": "ent_001",
+      "name": "ESP32-S3-WROOM-1",
+      "type": "COMPONENT",
+      "description": "Espressif ESP32-S3 Dual-Core AI SoC (Wireless SoC). Core: Dual-core 32-bit Xtensa LX7, Clock: 240MHz, Flash: 8192KB, SRAM: 512KB, Voltage: 3.0-3.6V, Active: 68.0mA, Sleep: 5.0uA, Package: QFN-56 (7x7mm)",
+      "degree": 12,
+      "community": 1,
+      "metadata": {
+        "component_name": "Espressif ESP32-S3 Dual-Core AI SoC",
+        "category": "Wireless SoC",
+        "max_clock_mhz": 240,
+        "flash_memory_kb": 8192,
+        "sram_kb": 512,
+        "voltage_range": "3.0V - 3.6V",
+        "active_current_ma": 68.0,
+        "sleep_current_ua": 5.0,
+        "package": "QFN-56 (7x7mm)",
+        "temp_range": "-40\u00b0C to +85\u00b0C",
+        "errata": "GPIO34 through GPIO39 are input-only and lack internal weak pull-up/pull-down resistors. Dedicated decoupling capacitors (10uF + 0.1uF) required close to VDD33 pins to prevent brownout during Wi-Fi calibration bursts."
+      }
+    },
+    {
+      "id": "ent_002",
+      "name": "Espressif Systems",
+      "type": "MANUFACTURER",
+      "description": "Semiconductor manufacturer and silicon vendor: Espressif Systems",
+      "degree": 1,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_003",
+      "name": "Dual-core 32-bit Xtensa LX7",
+      "type": "CORE_ARCHITECTURE",
+      "description": "Processor execution core or transducer architecture: Dual-core 32-bit Xtensa LX7",
+      "degree": 1,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_004",
+      "name": "Wi-Fi 802.11 b/g/n",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: Wi-Fi 802.11 b/g/n",
+      "degree": 1,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_005",
+      "name": "BLE 5.0",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: BLE 5.0",
+      "degree": 1,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_006",
+      "name": "SPI",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: SPI",
+      "degree": 9,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_007",
+      "name": "I2C",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: I2C",
+      "degree": 9,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_008",
+      "name": "UART",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: UART",
+      "degree": 7,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_009",
+      "name": "USB-OTG",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: USB-OTG",
+      "degree": 2,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_010",
+      "name": "STM32H743ZI",
+      "type": "COMPONENT",
+      "description": "STMicroelectronics STM32H7 High-Performance MCU (Microcontroller). Core: 32-bit Arm Cortex-M7 with DP-FPU, Clock: 480MHz, Flash: 2048KB, SRAM: 1024KB, Voltage: 1.71-3.6V, Active: 220.0mA, Sleep: 2.8uA, Package: LQFP-144 (20x20mm)",
+      "degree": 13,
+      "community": 2,
+      "metadata": {
+        "component_name": "STMicroelectronics STM32H7 High-Performance MCU",
+        "category": "Microcontroller",
+        "max_clock_mhz": 480,
+        "flash_memory_kb": 2048,
+        "sram_kb": 1024,
+        "voltage_range": "1.71V - 3.6V",
+        "active_current_ma": 220.0,
+        "sleep_current_ua": 2.8,
+        "package": "LQFP-144 (20x20mm)",
+        "temp_range": "-40\u00b0C to +85\u00b0C",
+        "errata": "Errata ES0392: AXI SRAM concurrent DMA reads during high-speed burst transfers may cause clock synchronization stalls unless AHB priority arbitration is configured. External SMPS power supply requires 4.7uH inductor."
+      }
+    },
+    {
+      "id": "ent_011",
+      "name": "STMicroelectronics",
+      "type": "MANUFACTURER",
+      "description": "Semiconductor manufacturer and silicon vendor: STMicroelectronics",
+      "degree": 2,
+      "community": 2,
+      "metadata": {}
+    },
+    {
+      "id": "ent_012",
+      "name": "32-bit Arm Cortex-M7 with DP-FPU",
+      "type": "CORE_ARCHITECTURE",
+      "description": "Processor execution core or transducer architecture: 32-bit Arm Cortex-M7 with DP-FPU",
+      "degree": 1,
+      "community": 2,
+      "metadata": {}
+    },
+    {
+      "id": "ent_013",
+      "name": "CAN-FD",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: CAN-FD",
+      "degree": 2,
+      "community": 2,
+      "metadata": {}
+    },
+    {
+      "id": "ent_014",
+      "name": "Ethernet 10/100",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: Ethernet 10/100",
+      "degree": 1,
+      "community": 2,
+      "metadata": {}
+    },
+    {
+      "id": "ent_015",
+      "name": "SAI",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: SAI",
+      "degree": 2,
+      "community": 2,
+      "metadata": {}
+    },
+    {
+      "id": "ent_016",
+      "name": "BME688-MEMS",
+      "type": "COMPONENT",
+      "description": "Bosch BME688 4-in-1 Gas Sensor with AI (MEMS Sensor). Core: MEMS Metal-Oxide Gas Transducer with ASIC, Clock: 0MHz, Flash: 0KB, SRAM: 0KB, Voltage: 1.71-3.6V, Active: 3.9mA, Sleep: 0.15uA, Package: LGA-8 (3.0x3.0x0.93mm)",
+      "degree": 12,
+      "community": 1,
+      "metadata": {
+        "component_name": "Bosch BME688 4-in-1 Gas Sensor with AI",
+        "category": "MEMS Sensor",
+        "max_clock_mhz": 0,
+        "flash_memory_kb": 0,
+        "sram_kb": 0,
+        "voltage_range": "1.71V - 3.6V",
+        "active_current_ma": 3.9,
+        "sleep_current_ua": 0.15,
+        "package": "LGA-8 (3.0x3.0x0.93mm)",
+        "temp_range": "-40\u00b0C to +85\u00b0C",
+        "errata": "Gas scanner hot-plate heater requires pulsed drive timing; continuous heater activation above 400\u00b0C degrades sensitive layer longevity. Ensure solder flux residues are ultrasonic cleaned to avoid baseline VOC drift."
+      }
+    },
+    {
+      "id": "ent_017",
+      "name": "Bosch Sensortec",
+      "type": "MANUFACTURER",
+      "description": "Semiconductor manufacturer and silicon vendor: Bosch Sensortec",
+      "degree": 1,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_018",
+      "name": "MEMS Metal-Oxide Gas Transducer with ASIC",
+      "type": "CORE_ARCHITECTURE",
+      "description": "Processor execution core or transducer architecture: MEMS Metal-Oxide Gas Transducer with ASIC",
+      "degree": 1,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_019",
+      "name": "ATECC608A-TNGTLS",
+      "type": "COMPONENT",
+      "description": "Microchip CryptoAuthentication Hardware Security Element (Hardware Security Element). Core: Hardware Cryptographic Engine with Secure EEPROM, Clock: 0MHz, Flash: 10KB, SRAM: 1KB, Voltage: 2.0-5.5V, Active: 1.0mA, Sleep: 0.05uA, Package: SOIC-8 (4.9x3.9mm)",
+      "degree": 12,
+      "community": 3,
+      "metadata": {
+        "component_name": "Microchip CryptoAuthentication Hardware Security Element",
+        "category": "Hardware Security Element",
+        "max_clock_mhz": 0,
+        "flash_memory_kb": 10,
+        "sram_kb": 1,
+        "voltage_range": "2.0V - 5.5V",
+        "active_current_ma": 1.0,
+        "sleep_current_ua": 0.05,
+        "package": "SOIC-8 (4.9x3.9mm)",
+        "temp_range": "-40\u00b0C to +85\u00b0C",
+        "errata": "Wake token requires SDA line driven LOW for minimum 60 microseconds before first I2C packet transmission. Configuration zone locks permanently after final production commissioning; test in unlocked development zone first."
+      }
+    },
+    {
+      "id": "ent_020",
+      "name": "Microchip Technology",
+      "type": "MANUFACTURER",
+      "description": "Semiconductor manufacturer and silicon vendor: Microchip Technology",
+      "degree": 1,
+      "community": 3,
+      "metadata": {}
+    },
+    {
+      "id": "ent_021",
+      "name": "Hardware Cryptographic Engine with Secure EEPROM",
+      "type": "CORE_ARCHITECTURE",
+      "description": "Processor execution core or transducer architecture: Hardware Cryptographic Engine with Secure EEPROM",
+      "degree": 1,
+      "community": 3,
+      "metadata": {}
+    },
+    {
+      "id": "ent_022",
+      "name": "Single-Wire Interface (SWI)",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: Single-Wire Interface (SWI)",
+      "degree": 1,
+      "community": 3,
+      "metadata": {}
+    },
+    {
+      "id": "ent_023",
+      "name": "nRF52840",
+      "type": "COMPONENT",
+      "description": "Nordic Semiconductor Multi-Protocol Bluetooth 5.3 SoC (Wireless SoC). Core: 32-bit Arm Cortex-M4F with FPU, Clock: 64MHz, Flash: 1024KB, SRAM: 256KB, Voltage: 1.7-5.5V, Active: 4.8mA, Sleep: 0.4uA, Package: aQFN-73 (7x7mm)",
+      "degree": 14,
+      "community": 4,
+      "metadata": {
+        "component_name": "Nordic Semiconductor Multi-Protocol Bluetooth 5.3 SoC",
+        "category": "Wireless SoC",
+        "max_clock_mhz": 64,
+        "flash_memory_kb": 1024,
+        "sram_kb": 256,
+        "voltage_range": "1.7V - 5.5V",
+        "active_current_ma": 4.8,
+        "sleep_current_ua": 0.4,
+        "package": "aQFN-73 (7x7mm)",
+        "temp_range": "-40\u00b0C to +105\u00b0C",
+        "errata": "Errata PAN-214: High DC-DC converter regulator ripple during high transmit power (+8 dBm) requires strict PCB ground stitching around C16/C17 matching network. NFC antenna pins NFC1/NFC2 default to NFC mode; reconfigure in UICR for standard GPIO usage."
+      }
+    },
+    {
+      "id": "ent_024",
+      "name": "Nordic Semiconductor",
+      "type": "MANUFACTURER",
+      "description": "Semiconductor manufacturer and silicon vendor: Nordic Semiconductor",
+      "degree": 1,
+      "community": 4,
+      "metadata": {}
+    },
+    {
+      "id": "ent_025",
+      "name": "32-bit Arm Cortex-M4F with FPU",
+      "type": "CORE_ARCHITECTURE",
+      "description": "Processor execution core or transducer architecture: 32-bit Arm Cortex-M4F with FPU",
+      "degree": 1,
+      "community": 4,
+      "metadata": {}
+    },
+    {
+      "id": "ent_026",
+      "name": "BLE 5.3",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: BLE 5.3",
+      "degree": 1,
+      "community": 4,
+      "metadata": {}
+    },
+    {
+      "id": "ent_027",
+      "name": "Thread",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: Thread",
+      "degree": 2,
+      "community": 4,
+      "metadata": {}
+    },
+    {
+      "id": "ent_028",
+      "name": "Zigbee",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: Zigbee",
+      "degree": 2,
+      "community": 4,
+      "metadata": {}
+    },
+    {
+      "id": "ent_029",
+      "name": "NFC",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: NFC",
+      "degree": 1,
+      "community": 4,
+      "metadata": {}
+    },
+    {
+      "id": "ent_030",
+      "name": "USB 2.0",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: USB 2.0",
+      "degree": 1,
+      "community": 4,
+      "metadata": {}
+    },
+    {
+      "id": "ent_031",
+      "name": "STM32U585",
+      "type": "COMPONENT",
+      "description": "STMicroelectronics Ultra-Low-Power Cortex-M33 MCU (Microcontroller). Core: 32-bit Arm Cortex-M33 with TrustZone, Clock: 160MHz, Flash: 2048KB, SRAM: 786KB, Voltage: 1.71-3.6V, Active: 19.0mA, Sleep: 1.2uA, Package: LQFP-100 (14x14mm)",
+      "degree": 10,
+      "community": 5,
+      "metadata": {
+        "component_name": "STMicroelectronics Ultra-Low-Power Cortex-M33 MCU",
+        "category": "Microcontroller",
+        "max_clock_mhz": 160,
+        "flash_memory_kb": 2048,
+        "sram_kb": 786,
+        "voltage_range": "1.71V - 3.6V",
+        "active_current_ma": 19.0,
+        "sleep_current_ua": 1.2,
+        "package": "LQFP-100 (14x14mm)",
+        "temp_range": "-40\u00b0C to +85\u00b0C",
+        "errata": "Low-power autonomous peripherals (LPBAM) require background SRAM4 retention voltage enabled in PWR register before entering Stop 3 sleep state. Ensure USB Type-C CC pins have pull-down terminations."
+      }
+    },
+    {
+      "id": "ent_032",
+      "name": "32-bit Arm Cortex-M33 with TrustZone",
+      "type": "CORE_ARCHITECTURE",
+      "description": "Processor execution core or transducer architecture: 32-bit Arm Cortex-M33 with TrustZone",
+      "degree": 1,
+      "community": 5,
+      "metadata": {}
+    },
+    {
+      "id": "ent_033",
+      "name": "USB-C FS",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: USB-C FS",
+      "degree": 1,
+      "community": 5,
+      "metadata": {}
+    },
+    {
+      "id": "ent_034",
+      "name": "CC2652R",
+      "type": "COMPONENT",
+      "description": "Texas Instruments SimpleLink Multiprotocol Wireless MCU (Wireless SoC). Core: 32-bit Arm Cortex-M4F + Sensor Controller Engine, Clock: 48MHz, Flash: 352KB, SRAM: 80KB, Voltage: 1.8-3.8V, Active: 6.9mA, Sleep: 0.9uA, Package: QFN-48 (7x7mm)",
+      "degree": 12,
+      "community": 6,
+      "metadata": {
+        "component_name": "Texas Instruments SimpleLink Multiprotocol Wireless MCU",
+        "category": "Wireless SoC",
+        "max_clock_mhz": 48,
+        "flash_memory_kb": 352,
+        "sram_kb": 80,
+        "voltage_range": "1.8V - 3.8V",
+        "active_current_ma": 6.9,
+        "sleep_current_ua": 0.9,
+        "package": "QFN-48 (7x7mm)",
+        "temp_range": "-40\u00b0C to +105\u00b0C",
+        "errata": "Sub-1GHz RF impedance match requires differential balun filter network. Sensor Controller Engine autonomous tasks must preserve memory boundaries to avoid overwriting shared system RAM buffers."
+      }
+    },
+    {
+      "id": "ent_035",
+      "name": "Texas Instruments",
+      "type": "MANUFACTURER",
+      "description": "Semiconductor manufacturer and silicon vendor: Texas Instruments",
+      "degree": 1,
+      "community": 6,
+      "metadata": {}
+    },
+    {
+      "id": "ent_036",
+      "name": "32-bit Arm Cortex-M4F + Sensor Controller Engine",
+      "type": "CORE_ARCHITECTURE",
+      "description": "Processor execution core or transducer architecture: 32-bit Arm Cortex-M4F + Sensor Controller Engine",
+      "degree": 1,
+      "community": 6,
+      "metadata": {}
+    },
+    {
+      "id": "ent_037",
+      "name": "BLE 5.2",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: BLE 5.2",
+      "degree": 2,
+      "community": 6,
+      "metadata": {}
+    },
+    {
+      "id": "ent_038",
+      "name": "Sub-1GHz",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: Sub-1GHz",
+      "degree": 1,
+      "community": 6,
+      "metadata": {}
+    },
+    {
+      "id": "ent_039",
+      "name": "MAX32666",
+      "type": "COMPONENT",
+      "description": "Analog Devices / Maxim Low-Power Dual-Core BLE MCU (Wireless SoC). Core: Dual-core Arm Cortex-M4F with FPU + BLE 5.2, Clock: 96MHz, Flash: 1024KB, SRAM: 560KB, Voltage: 1.71-3.6V, Active: 8.5mA, Sleep: 1.5uA, Package: WLP-108 (4.4x4.4mm)",
+      "degree": 10,
+      "community": 7,
+      "metadata": {
+        "component_name": "Analog Devices / Maxim Low-Power Dual-Core BLE MCU",
+        "category": "Wireless SoC",
+        "max_clock_mhz": 96,
+        "flash_memory_kb": 1024,
+        "sram_kb": 560,
+        "voltage_range": "1.71V - 3.6V",
+        "active_current_ma": 8.5,
+        "sleep_current_ua": 1.5,
+        "package": "WLP-108 (4.4x4.4mm)",
+        "temp_range": "-40\u00b0C to +105\u00b0C",
+        "errata": "SIMO buck regulator output voltages must be sequenced in strict order (VREG1 -> VREG2) during cold power-on. Wafer-Level Packaging (WLP) requires underfill epoxy to mitigate solder fatigue in thermal cycling."
+      }
+    },
+    {
+      "id": "ent_040",
+      "name": "Analog Devices",
+      "type": "MANUFACTURER",
+      "description": "Semiconductor manufacturer and silicon vendor: Analog Devices",
+      "degree": 1,
+      "community": 7,
+      "metadata": {}
+    },
+    {
+      "id": "ent_041",
+      "name": "Dual-core Arm Cortex-M4F with FPU + BLE 5.2",
+      "type": "CORE_ARCHITECTURE",
+      "description": "Processor execution core or transducer architecture: Dual-core Arm Cortex-M4F with FPU + BLE 5.2",
+      "degree": 1,
+      "community": 7,
+      "metadata": {}
+    },
+    {
+      "id": "ent_042",
+      "name": "1-Wire",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: 1-Wire",
+      "degree": 1,
+      "community": 7,
+      "metadata": {}
+    },
+    {
+      "id": "ent_043",
+      "name": "USB-FS",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: USB-FS",
+      "degree": 1,
+      "community": 7,
+      "metadata": {}
+    },
+    {
+      "id": "ent_044",
+      "name": "RP2040",
+      "type": "COMPONENT",
+      "description": "Raspberry Pi RP2040 Dual Cortex-M0+ Microcontroller (Microcontroller). Core: Dual-core 32-bit Arm Cortex-M0+, Clock: 133MHz, Flash: 0KB, SRAM: 264KB, Voltage: 1.8-3.3V, Active: 18.0mA, Sleep: 180.0uA, Package: QFN-56 (7x7mm)",
+      "degree": 11,
+      "community": 8,
+      "metadata": {
+        "component_name": "Raspberry Pi RP2040 Dual Cortex-M0+ Microcontroller",
+        "category": "Microcontroller",
+        "max_clock_mhz": 133,
+        "flash_memory_kb": 0,
+        "sram_kb": 264,
+        "voltage_range": "1.8V - 3.3V",
+        "active_current_ma": 18.0,
+        "sleep_current_ua": 180.0,
+        "package": "QFN-56 (7x7mm)",
+        "temp_range": "-20\u00b0C to +85\u00b0C",
+        "errata": "RP2040-E5 errata: USB bootloader pull-up resistor anomaly on early silicon stepping requires external 1k pull-up resistor or software work-around. Lacks on-chip non-volatile flash; requires external QSPI Flash memory (Winbond W25Q16/W25Q32)."
+      }
+    },
+    {
+      "id": "ent_045",
+      "name": "Raspberry Pi Ltd",
+      "type": "MANUFACTURER",
+      "description": "Semiconductor manufacturer and silicon vendor: Raspberry Pi Ltd",
+      "degree": 1,
+      "community": 8,
+      "metadata": {}
+    },
+    {
+      "id": "ent_046",
+      "name": "Dual-core 32-bit Arm Cortex-M0+",
+      "type": "CORE_ARCHITECTURE",
+      "description": "Processor execution core or transducer architecture: Dual-core 32-bit Arm Cortex-M0+",
+      "degree": 1,
+      "community": 8,
+      "metadata": {}
+    },
+    {
+      "id": "ent_047",
+      "name": "USB 1.1",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: USB 1.1",
+      "degree": 1,
+      "community": 8,
+      "metadata": {}
+    },
+    {
+      "id": "ent_048",
+      "name": "PIO",
+      "type": "PROTOCOL",
+      "description": "Hardware peripheral bus or wireless RF interface standard: PIO",
+      "degree": 1,
+      "community": 8,
+      "metadata": {}
+    },
+    {
+      "id": "ent_049",
+      "name": "SX1262-LORA",
+      "type": "COMPONENT",
+      "description": "Semtech SX1262 Long-Range Sub-GHz RF Transceiver (RF Transceiver). Core: LoRa Chirp Spread Spectrum & (G)FSK RF Modulator, Clock: 32MHz, Flash: 0KB, SRAM: 0KB, Voltage: 1.8-3.7V, Active: 4.2mA, Sleep: 0.16uA, Package: QFN-24 (4x4mm)",
+      "degree": 7,
+      "community": 8,
+      "metadata": {
+        "component_name": "Semtech SX1262 Long-Range Sub-GHz RF Transceiver",
+        "category": "RF Transceiver",
+        "max_clock_mhz": 32,
+        "flash_memory_kb": 0,
+        "sram_kb": 0,
+        "voltage_range": "1.8V - 3.7V",
+        "active_current_ma": 4.2,
+        "sleep_current_ua": 0.16,
+        "package": "QFN-24 (4x4mm)",
+        "temp_range": "-40\u00b0C to +85\u00b0C",
+        "errata": "High transmit power output (+22 dBm) causes substantial peak current consumption (up to 118 mA). Must implement low-ESR bulk capacitance on VBAT_RF and ensure antenna matching network complies with ETSI/FCC harmonics limits."
+      }
+    },
+    {
+      "id": "ent_050",
+      "name": "Semtech Corporation",
+      "type": "MANUFACTURER",
+      "description": "Semiconductor manufacturer and silicon vendor: Semtech Corporation",
+      "degree": 1,
+      "community": 8,
+      "metadata": {}
+    },
+    {
+      "id": "ent_051",
+      "name": "LoRa Chirp Spread Spectrum & (G)FSK RF Modulator",
+      "type": "CORE_ARCHITECTURE",
+      "description": "Processor execution core or transducer architecture: LoRa Chirp Spread Spectrum & (G)FSK RF Modulator",
+      "degree": 1,
+      "community": 8,
+      "metadata": {}
+    },
+    {
+      "id": "ent_052",
+      "name": "QSPI Flash Bus",
+      "type": "PROTOCOL",
+      "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: QSPI Flash Bus",
+      "degree": 0,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_053",
+      "name": "JTAG IEEE 1149.1",
+      "type": "PROTOCOL",
+      "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: JTAG IEEE 1149.1",
+      "degree": 0,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_054",
+      "name": "SWD Arm Serial Wire",
+      "type": "PROTOCOL",
+      "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: SWD Arm Serial Wire",
+      "degree": 0,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_055",
+      "name": "I2S Digital Audio",
+      "type": "PROTOCOL",
+      "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: I2S Digital Audio",
+      "degree": 0,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_056",
+      "name": "DVP Camera Parallel Interface",
+      "type": "PROTOCOL",
+      "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: DVP Camera Parallel Interface",
+      "degree": 0,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_057",
+      "name": "MIPI-CSI2",
+      "type": "PROTOCOL",
+      "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: MIPI-CSI2",
+      "degree": 0,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_058",
+      "name": "LIN Automotive Bus",
+      "type": "PROTOCOL",
+      "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: LIN Automotive Bus",
+      "degree": 0,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_059",
+      "name": "Modbus RTU",
+      "type": "PROTOCOL",
+      "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: Modbus RTU",
+      "degree": 0,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_060",
+      "name": "FSK Modulator",
+      "type": "PROTOCOL",
+      "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: FSK Modulator",
+      "degree": 0,
+      "community": 1,
+      "metadata": {}
+    },
+    {
+      "id": "ent_061",
+      "name": "LoRa Chirp Spread Spectrum",
+      "type": "PROTOCOL",
+      "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: LoRa Chirp Spread Spectrum",
+      "degree": 0,
+      "community": 1,
+      "metadata": {}
+    }
+  ],
+  "links": [
+    {
+      "id": "rel_001",
+      "source": "ESP32-S3-WROOM-1",
+      "target": "Espressif Systems",
+      "type": "MANUFACTURED_BY",
+      "description": "ESP32-S3-WROOM-1 is manufactured and supported by Espressif Systems",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_002",
+      "source": "ESP32-S3-WROOM-1",
+      "target": "Dual-core 32-bit Xtensa LX7",
+      "type": "POWERED_BY_CORE",
+      "description": "ESP32-S3-WROOM-1 computational architecture is powered by Dual-core 32-bit Xtensa LX7",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_003",
+      "source": "ESP32-S3-WROOM-1",
+      "target": "Wi-Fi 802.11 b/g/n",
+      "type": "COMMUNICATES_VIA",
+      "description": "ESP32-S3-WROOM-1 natively communicates over Wi-Fi 802.11 b/g/n",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_004",
+      "source": "ESP32-S3-WROOM-1",
+      "target": "BLE 5.0",
+      "type": "COMMUNICATES_VIA",
+      "description": "ESP32-S3-WROOM-1 natively communicates over BLE 5.0",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_005",
+      "source": "ESP32-S3-WROOM-1",
+      "target": "SPI",
+      "type": "COMMUNICATES_VIA",
+      "description": "ESP32-S3-WROOM-1 natively communicates over SPI",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_006",
+      "source": "ESP32-S3-WROOM-1",
+      "target": "I2C",
+      "type": "COMMUNICATES_VIA",
+      "description": "ESP32-S3-WROOM-1 natively communicates over I2C",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_007",
+      "source": "ESP32-S3-WROOM-1",
+      "target": "UART",
+      "type": "COMMUNICATES_VIA",
+      "description": "ESP32-S3-WROOM-1 natively communicates over UART",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_008",
+      "source": "ESP32-S3-WROOM-1",
+      "target": "USB-OTG",
+      "type": "COMMUNICATES_VIA",
+      "description": "ESP32-S3-WROOM-1 natively communicates over USB-OTG",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_009",
+      "source": "ESP32-S3-WROOM-1",
+      "target": "BME688-MEMS",
+      "type": "COMPATIBLE_WITH",
+      "description": "ESP32-S3-WROOM-1 verified interoperable with companion IC BME688-MEMS",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_010",
+      "source": "ESP32-S3-WROOM-1",
+      "target": "ATECC608A-TNGTLS",
+      "type": "COMPATIBLE_WITH",
+      "description": "ESP32-S3-WROOM-1 verified interoperable with companion IC ATECC608A-TNGTLS",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_011",
+      "source": "STM32H743ZI",
+      "target": "STMicroelectronics",
+      "type": "MANUFACTURED_BY",
+      "description": "STM32H743ZI is manufactured and supported by STMicroelectronics",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_012",
+      "source": "STM32H743ZI",
+      "target": "32-bit Arm Cortex-M7 with DP-FPU",
+      "type": "POWERED_BY_CORE",
+      "description": "STM32H743ZI computational architecture is powered by 32-bit Arm Cortex-M7 with DP-FPU",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_013",
+      "source": "STM32H743ZI",
+      "target": "CAN-FD",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32H743ZI natively communicates over CAN-FD",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_014",
+      "source": "STM32H743ZI",
+      "target": "SPI",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32H743ZI natively communicates over SPI",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_015",
+      "source": "STM32H743ZI",
+      "target": "I2C",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32H743ZI natively communicates over I2C",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_016",
+      "source": "STM32H743ZI",
+      "target": "UART",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32H743ZI natively communicates over UART",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_017",
+      "source": "STM32H743ZI",
+      "target": "Ethernet 10/100",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32H743ZI natively communicates over Ethernet 10/100",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_018",
+      "source": "STM32H743ZI",
+      "target": "USB-OTG",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32H743ZI natively communicates over USB-OTG",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_019",
+      "source": "STM32H743ZI",
+      "target": "SAI",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32H743ZI natively communicates over SAI",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_020",
+      "source": "STM32H743ZI",
+      "target": "SX1262-LORA",
+      "type": "COMPATIBLE_WITH",
+      "description": "STM32H743ZI verified interoperable with companion IC SX1262-LORA",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_021",
+      "source": "STM32H743ZI",
+      "target": "ATECC608A-TNGTLS",
+      "type": "COMPATIBLE_WITH",
+      "description": "STM32H743ZI verified interoperable with companion IC ATECC608A-TNGTLS",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_022",
+      "source": "BME688-MEMS",
+      "target": "Bosch Sensortec",
+      "type": "MANUFACTURED_BY",
+      "description": "BME688-MEMS is manufactured and supported by Bosch Sensortec",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_023",
+      "source": "BME688-MEMS",
+      "target": "MEMS Metal-Oxide Gas Transducer with ASIC",
+      "type": "POWERED_BY_CORE",
+      "description": "BME688-MEMS computational architecture is powered by MEMS Metal-Oxide Gas Transducer with ASIC",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_024",
+      "source": "BME688-MEMS",
+      "target": "I2C",
+      "type": "COMMUNICATES_VIA",
+      "description": "BME688-MEMS natively communicates over I2C",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_025",
+      "source": "BME688-MEMS",
+      "target": "SPI",
+      "type": "COMMUNICATES_VIA",
+      "description": "BME688-MEMS natively communicates over SPI",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_026",
+      "source": "BME688-MEMS",
+      "target": "ESP32-S3-WROOM-1",
+      "type": "COMPATIBLE_WITH",
+      "description": "BME688-MEMS verified interoperable with companion IC ESP32-S3-WROOM-1",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_027",
+      "source": "BME688-MEMS",
+      "target": "nRF52840",
+      "type": "COMPATIBLE_WITH",
+      "description": "BME688-MEMS verified interoperable with companion IC nRF52840",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_028",
+      "source": "BME688-MEMS",
+      "target": "STM32U585",
+      "type": "COMPATIBLE_WITH",
+      "description": "BME688-MEMS verified interoperable with companion IC STM32U585",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_029",
+      "source": "ATECC608A-TNGTLS",
+      "target": "Microchip Technology",
+      "type": "MANUFACTURED_BY",
+      "description": "ATECC608A-TNGTLS is manufactured and supported by Microchip Technology",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_030",
+      "source": "ATECC608A-TNGTLS",
+      "target": "Hardware Cryptographic Engine with Secure EEPROM",
+      "type": "POWERED_BY_CORE",
+      "description": "ATECC608A-TNGTLS computational architecture is powered by Hardware Cryptographic Engine with Secure EEPROM",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_031",
+      "source": "ATECC608A-TNGTLS",
+      "target": "I2C",
+      "type": "COMMUNICATES_VIA",
+      "description": "ATECC608A-TNGTLS natively communicates over I2C",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_032",
+      "source": "ATECC608A-TNGTLS",
+      "target": "Single-Wire Interface (SWI)",
+      "type": "COMMUNICATES_VIA",
+      "description": "ATECC608A-TNGTLS natively communicates over Single-Wire Interface (SWI)",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_033",
+      "source": "ATECC608A-TNGTLS",
+      "target": "ESP32-S3-WROOM-1",
+      "type": "COMPATIBLE_WITH",
+      "description": "ATECC608A-TNGTLS verified interoperable with companion IC ESP32-S3-WROOM-1",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_034",
+      "source": "ATECC608A-TNGTLS",
+      "target": "STM32H743ZI",
+      "type": "COMPATIBLE_WITH",
+      "description": "ATECC608A-TNGTLS verified interoperable with companion IC STM32H743ZI",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_035",
+      "source": "ATECC608A-TNGTLS",
+      "target": "nRF52840",
+      "type": "COMPATIBLE_WITH",
+      "description": "ATECC608A-TNGTLS verified interoperable with companion IC nRF52840",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_036",
+      "source": "ATECC608A-TNGTLS",
+      "target": "RP2040",
+      "type": "COMPATIBLE_WITH",
+      "description": "ATECC608A-TNGTLS verified interoperable with companion IC RP2040",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_037",
+      "source": "nRF52840",
+      "target": "Nordic Semiconductor",
+      "type": "MANUFACTURED_BY",
+      "description": "nRF52840 is manufactured and supported by Nordic Semiconductor",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_038",
+      "source": "nRF52840",
+      "target": "32-bit Arm Cortex-M4F with FPU",
+      "type": "POWERED_BY_CORE",
+      "description": "nRF52840 computational architecture is powered by 32-bit Arm Cortex-M4F with FPU",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_039",
+      "source": "nRF52840",
+      "target": "BLE 5.3",
+      "type": "COMMUNICATES_VIA",
+      "description": "nRF52840 natively communicates over BLE 5.3",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_040",
+      "source": "nRF52840",
+      "target": "Thread",
+      "type": "COMMUNICATES_VIA",
+      "description": "nRF52840 natively communicates over Thread",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_041",
+      "source": "nRF52840",
+      "target": "Zigbee",
+      "type": "COMMUNICATES_VIA",
+      "description": "nRF52840 natively communicates over Zigbee",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_042",
+      "source": "nRF52840",
+      "target": "NFC",
+      "type": "COMMUNICATES_VIA",
+      "description": "nRF52840 natively communicates over NFC",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_043",
+      "source": "nRF52840",
+      "target": "USB 2.0",
+      "type": "COMMUNICATES_VIA",
+      "description": "nRF52840 natively communicates over USB 2.0",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_044",
+      "source": "nRF52840",
+      "target": "SPI",
+      "type": "COMMUNICATES_VIA",
+      "description": "nRF52840 natively communicates over SPI",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_045",
+      "source": "nRF52840",
+      "target": "I2C",
+      "type": "COMMUNICATES_VIA",
+      "description": "nRF52840 natively communicates over I2C",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_046",
+      "source": "nRF52840",
+      "target": "UART",
+      "type": "COMMUNICATES_VIA",
+      "description": "nRF52840 natively communicates over UART",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_047",
+      "source": "nRF52840",
+      "target": "BME688-MEMS",
+      "type": "COMPATIBLE_WITH",
+      "description": "nRF52840 verified interoperable with companion IC BME688-MEMS",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_048",
+      "source": "nRF52840",
+      "target": "ATECC608A-TNGTLS",
+      "type": "COMPATIBLE_WITH",
+      "description": "nRF52840 verified interoperable with companion IC ATECC608A-TNGTLS",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_049",
+      "source": "nRF52840",
+      "target": "SX1262-LORA",
+      "type": "COMPATIBLE_WITH",
+      "description": "nRF52840 verified interoperable with companion IC SX1262-LORA",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_050",
+      "source": "STM32U585",
+      "target": "STMicroelectronics",
+      "type": "MANUFACTURED_BY",
+      "description": "STM32U585 is manufactured and supported by STMicroelectronics",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_051",
+      "source": "STM32U585",
+      "target": "32-bit Arm Cortex-M33 with TrustZone",
+      "type": "POWERED_BY_CORE",
+      "description": "STM32U585 computational architecture is powered by 32-bit Arm Cortex-M33 with TrustZone",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_052",
+      "source": "STM32U585",
+      "target": "CAN-FD",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32U585 natively communicates over CAN-FD",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_053",
+      "source": "STM32U585",
+      "target": "USB-C FS",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32U585 natively communicates over USB-C FS",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_054",
+      "source": "STM32U585",
+      "target": "SPI",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32U585 natively communicates over SPI",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_055",
+      "source": "STM32U585",
+      "target": "I2C",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32U585 natively communicates over I2C",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_056",
+      "source": "STM32U585",
+      "target": "UART",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32U585 natively communicates over UART",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_057",
+      "source": "STM32U585",
+      "target": "SAI",
+      "type": "COMMUNICATES_VIA",
+      "description": "STM32U585 natively communicates over SAI",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_058",
+      "source": "STM32U585",
+      "target": "BME688-MEMS",
+      "type": "COMPATIBLE_WITH",
+      "description": "STM32U585 verified interoperable with companion IC BME688-MEMS",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_059",
+      "source": "STM32U585",
+      "target": "ATECC608A-TNGTLS",
+      "type": "COMPATIBLE_WITH",
+      "description": "STM32U585 verified interoperable with companion IC ATECC608A-TNGTLS",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_060",
+      "source": "CC2652R",
+      "target": "Texas Instruments",
+      "type": "MANUFACTURED_BY",
+      "description": "CC2652R is manufactured and supported by Texas Instruments",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_061",
+      "source": "CC2652R",
+      "target": "32-bit Arm Cortex-M4F + Sensor Controller Engine",
+      "type": "POWERED_BY_CORE",
+      "description": "CC2652R computational architecture is powered by 32-bit Arm Cortex-M4F + Sensor Controller Engine",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_062",
+      "source": "CC2652R",
+      "target": "BLE 5.2",
+      "type": "COMMUNICATES_VIA",
+      "description": "CC2652R natively communicates over BLE 5.2",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_063",
+      "source": "CC2652R",
+      "target": "Thread",
+      "type": "COMMUNICATES_VIA",
+      "description": "CC2652R natively communicates over Thread",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_064",
+      "source": "CC2652R",
+      "target": "Zigbee",
+      "type": "COMMUNICATES_VIA",
+      "description": "CC2652R natively communicates over Zigbee",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_065",
+      "source": "CC2652R",
+      "target": "Sub-1GHz",
+      "type": "COMMUNICATES_VIA",
+      "description": "CC2652R natively communicates over Sub-1GHz",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_066",
+      "source": "CC2652R",
+      "target": "SPI",
+      "type": "COMMUNICATES_VIA",
+      "description": "CC2652R natively communicates over SPI",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_067",
+      "source": "CC2652R",
+      "target": "I2C",
+      "type": "COMMUNICATES_VIA",
+      "description": "CC2652R natively communicates over I2C",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_068",
+      "source": "CC2652R",
+      "target": "UART",
+      "type": "COMMUNICATES_VIA",
+      "description": "CC2652R natively communicates over UART",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_069",
+      "source": "CC2652R",
+      "target": "BME688-MEMS",
+      "type": "COMPATIBLE_WITH",
+      "description": "CC2652R verified interoperable with companion IC BME688-MEMS",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_070",
+      "source": "CC2652R",
+      "target": "SX1262-LORA",
+      "type": "COMPATIBLE_WITH",
+      "description": "CC2652R verified interoperable with companion IC SX1262-LORA",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_071",
+      "source": "MAX32666",
+      "target": "Analog Devices",
+      "type": "MANUFACTURED_BY",
+      "description": "MAX32666 is manufactured and supported by Analog Devices",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_072",
+      "source": "MAX32666",
+      "target": "Dual-core Arm Cortex-M4F with FPU + BLE 5.2",
+      "type": "POWERED_BY_CORE",
+      "description": "MAX32666 computational architecture is powered by Dual-core Arm Cortex-M4F with FPU + BLE 5.2",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_073",
+      "source": "MAX32666",
+      "target": "BLE 5.2",
+      "type": "COMMUNICATES_VIA",
+      "description": "MAX32666 natively communicates over BLE 5.2",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_074",
+      "source": "MAX32666",
+      "target": "SPI",
+      "type": "COMMUNICATES_VIA",
+      "description": "MAX32666 natively communicates over SPI",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_075",
+      "source": "MAX32666",
+      "target": "I2C",
+      "type": "COMMUNICATES_VIA",
+      "description": "MAX32666 natively communicates over I2C",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_076",
+      "source": "MAX32666",
+      "target": "UART",
+      "type": "COMMUNICATES_VIA",
+      "description": "MAX32666 natively communicates over UART",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_077",
+      "source": "MAX32666",
+      "target": "1-Wire",
+      "type": "COMMUNICATES_VIA",
+      "description": "MAX32666 natively communicates over 1-Wire",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_078",
+      "source": "MAX32666",
+      "target": "USB-FS",
+      "type": "COMMUNICATES_VIA",
+      "description": "MAX32666 natively communicates over USB-FS",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_079",
+      "source": "MAX32666",
+      "target": "BME688-MEMS",
+      "type": "COMPATIBLE_WITH",
+      "description": "MAX32666 verified interoperable with companion IC BME688-MEMS",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_080",
+      "source": "MAX32666",
+      "target": "ATECC608A-TNGTLS",
+      "type": "COMPATIBLE_WITH",
+      "description": "MAX32666 verified interoperable with companion IC ATECC608A-TNGTLS",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_081",
+      "source": "RP2040",
+      "target": "Raspberry Pi Ltd",
+      "type": "MANUFACTURED_BY",
+      "description": "RP2040 is manufactured and supported by Raspberry Pi Ltd",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_082",
+      "source": "RP2040",
+      "target": "Dual-core 32-bit Arm Cortex-M0+",
+      "type": "POWERED_BY_CORE",
+      "description": "RP2040 computational architecture is powered by Dual-core 32-bit Arm Cortex-M0+",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_083",
+      "source": "RP2040",
+      "target": "SPI",
+      "type": "COMMUNICATES_VIA",
+      "description": "RP2040 natively communicates over SPI",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_084",
+      "source": "RP2040",
+      "target": "I2C",
+      "type": "COMMUNICATES_VIA",
+      "description": "RP2040 natively communicates over I2C",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_085",
+      "source": "RP2040",
+      "target": "UART",
+      "type": "COMMUNICATES_VIA",
+      "description": "RP2040 natively communicates over UART",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_086",
+      "source": "RP2040",
+      "target": "USB 1.1",
+      "type": "COMMUNICATES_VIA",
+      "description": "RP2040 natively communicates over USB 1.1",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_087",
+      "source": "RP2040",
+      "target": "PIO",
+      "type": "COMMUNICATES_VIA",
+      "description": "RP2040 natively communicates over PIO",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_088",
+      "source": "RP2040",
+      "target": "BME688-MEMS",
+      "type": "COMPATIBLE_WITH",
+      "description": "RP2040 verified interoperable with companion IC BME688-MEMS",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_089",
+      "source": "RP2040",
+      "target": "ATECC608A-TNGTLS",
+      "type": "COMPATIBLE_WITH",
+      "description": "RP2040 verified interoperable with companion IC ATECC608A-TNGTLS",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_090",
+      "source": "RP2040",
+      "target": "SX1262-LORA",
+      "type": "COMPATIBLE_WITH",
+      "description": "RP2040 verified interoperable with companion IC SX1262-LORA",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_091",
+      "source": "SX1262-LORA",
+      "target": "Semtech Corporation",
+      "type": "MANUFACTURED_BY",
+      "description": "SX1262-LORA is manufactured and supported by Semtech Corporation",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_092",
+      "source": "SX1262-LORA",
+      "target": "LoRa Chirp Spread Spectrum & (G)FSK RF Modulator",
+      "type": "POWERED_BY_CORE",
+      "description": "SX1262-LORA computational architecture is powered by LoRa Chirp Spread Spectrum & (G)FSK RF Modulator",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_093",
+      "source": "SX1262-LORA",
+      "target": "SPI",
+      "type": "COMMUNICATES_VIA",
+      "description": "SX1262-LORA natively communicates over SPI",
+      "weight": 1.0
+    },
+    {
+      "id": "rel_094",
+      "source": "SX1262-LORA",
+      "target": "STM32H743ZI",
+      "type": "COMPATIBLE_WITH",
+      "description": "SX1262-LORA verified interoperable with companion IC STM32H743ZI",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_095",
+      "source": "SX1262-LORA",
+      "target": "nRF52840",
+      "type": "COMPATIBLE_WITH",
+      "description": "SX1262-LORA verified interoperable with companion IC nRF52840",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_096",
+      "source": "SX1262-LORA",
+      "target": "CC2652R",
+      "type": "COMPATIBLE_WITH",
+      "description": "SX1262-LORA verified interoperable with companion IC CC2652R",
+      "weight": 1.2
+    },
+    {
+      "id": "rel_097",
+      "source": "SX1262-LORA",
+      "target": "RP2040",
+      "type": "COMPATIBLE_WITH",
+      "description": "SX1262-LORA verified interoperable with companion IC RP2040",
+      "weight": 1.2
+    }
+  ],
+  "communities": [
+    {
+      "id": 1,
+      "title": "Wireless Edge AI & Sensory Fusion",
+      "entities": [
+        "ESP32-S3-WROOM-1",
+        "BME688-MEMS",
+        "Espressif Systems",
+        "Dual-core 32-bit Xtensa LX7",
+        "Wi-Fi 802.11 b/g/n",
+        "BLE 5.0",
+        "MEMS Metal-Oxide Gas Transducer with ASIC"
+      ],
+      "summary": "High-integration wireless processing and environmental gas telemetry cluster centered around dual-core Xtensa AI SoCs and MEMS multisensors.",
+      "findings": [
+        "ESP32-S3 links to BME688 over shared I2C and SPI buses for real-time indoor air quality (IAQ) and edge AI olfactory inferencing.",
+        "GPIO34..39 input-only silicon constraint requires dedicated external pull-ups when interfacing with multi-drop sensor buses."
+      ],
+      "rating": 8.8,
+      "rating_explanation": "Cohesive synergy between wireless edge machine learning and precision environmental air classification."
+    },
+    {
+      "id": 2,
+      "title": "High-Performance Industrial Automation & Telemetry",
+      "entities": [
+        "STM32H743ZI",
+        "STMicroelectronics",
+        "32-bit Arm Cortex-M7 with DP-FPU",
+        "CAN-FD",
+        "Ethernet 10/100",
+        "SAI"
+      ],
+      "summary": "Dual-issue 480 MHz Cortex-M7 microcontroller cluster optimized for real-time determinism, industrial CAN-FD fieldbuses, and low-latency audio.",
+      "findings": [
+        "STM32H743ZI provides high computational throughput (2048 KB Flash, 1024 KB SRAM) for robotics, industrial controllers, and motor drives.",
+        "Errata ES0392 requires AHB bus arbitration management to avoid AXI SRAM DMA clock stalls."
+      ],
+      "rating": 9.2,
+      "rating_explanation": "Essential architectural backbone for mission-critical industrial manufacturing and high-throughput real-time control."
+    },
+    {
+      "id": 3,
+      "title": "Hardware Cryptographic Root-of-Trust & Security",
+      "entities": [
+        "ATECC608A-TNGTLS",
+        "Microchip Technology",
+        "Hardware Cryptographic Engine with Secure EEPROM",
+        "Single-Wire Interface (SWI)"
+      ],
+      "summary": "Dedicated hardware security coprocessor providing secure boot, zero-touch cloud provisioning, ECDSA signing, and tamper-resistant storage.",
+      "findings": [
+        "Interoperates as an external security companion for ESP32-S3, STM32H743ZI, and nRF52840.",
+        "Wake token requirement: SDA must be driven low for at least 60 microseconds prior to standard I2C transactions."
+      ],
+      "rating": 9.5,
+      "rating_explanation": "Crucial trust anchor preventing device counterfeiting, credential theft, and unauthorized firmware flashes across IoT deployments."
+    },
+    {
+      "id": 4,
+      "title": "Multi-Protocol Low-Power Mesh & Wearable Wireless",
+      "entities": [
+        "nRF52840",
+        "Nordic Semiconductor",
+        "32-bit Arm Cortex-M4F with FPU",
+        "BLE 5.3",
+        "Thread",
+        "Zigbee",
+        "NFC",
+        "USB 2.0"
+      ],
+      "summary": "Comprehensive 2.4 GHz multi-protocol mesh networking and Bluetooth 5.3 SoC designed for medical wearables, smart lighting, and asset tags.",
+      "findings": [
+        "Ultra-low standby current (0.4 uA) with multi-protocol concurrency between BLE, Thread, and Zigbee.",
+        "PAN-214 errata mandates ground stitching around matching capacitors to suppress high-power DC-DC ripple."
+      ],
+      "rating": 8.9,
+      "rating_explanation": "Industry standard for ultra-low-power consumer, healthcare, and industrial wireless mesh fabrics."
+    },
+    {
+      "id": 5,
+      "title": "Ultra-Low-Power Autonomous Edge Control",
+      "entities": [
+        "STM32U585",
+        "32-bit Arm Cortex-M33 with TrustZone",
+        "USB-C FS"
+      ],
+      "summary": "Next-generation energy-harvesting and battery-powered Cortex-M33 microcontroller featuring Arm TrustZone hardware isolation and autonomous peripherals.",
+      "findings": [
+        "Active LPBAM autonomous direct-memory transfers allow peripheral polling while main CPU remains in Stop 3 sleep.",
+        "Standby sleep current under 1.2 uA with full retention of critical SRAM blocks."
+      ],
+      "rating": 8.7,
+      "rating_explanation": "High-efficiency processing for energy-constrained smart water/gas meters and remote industrial monitors."
+    },
+    {
+      "id": 6,
+      "title": "Multiprotocol Sub-1GHz Infrastructure & Smart Grid",
+      "entities": [
+        "CC2652R",
+        "Texas Instruments",
+        "32-bit Arm Cortex-M4F + Sensor Controller Engine",
+        "Sub-1GHz"
+      ],
+      "summary": "Dual-band wireless SoC pairing a Cortex-M4F application processor with a dedicated autonomous sensor controller engine for long-range Sub-1GHz RF.",
+      "findings": [
+        "0.9 uA standby leakage allows multi-year coin-cell operation in municipal metering and building automation.",
+        "Sensor Controller Engine executes ADC polling independently without waking the primary ARM CPU."
+      ],
+      "rating": 8.5,
+      "rating_explanation": "Robust long-range RF propagation penetration through concrete walls for smart utility grid networks."
+    },
+    {
+      "id": 7,
+      "title": "Dual-Core Biosensing & Hearable Computing",
+      "entities": [
+        "MAX32666",
+        "Analog Devices",
+        "Dual-core Arm Cortex-M4F with FPU + BLE 5.2",
+        "1-Wire",
+        "USB-FS"
+      ],
+      "summary": "Dual-core ultra-low-power wearable processor with dedicated SIMO buck regulator architecture tailored for clinical patient monitors and hearing aids.",
+      "findings": [
+        "Wafer-level packaging (4.4x4.4mm) with dual-core lockstep security or asymmetric audio DSP task distribution.",
+        "Requires careful SIMO regulator output power sequencing during cold start."
+      ],
+      "rating": 8.6,
+      "rating_explanation": "Specialized architecture for miniaturized, life-critical bio-wearables requiring continuous ECG/PPG sampling."
+    },
+    {
+      "id": 8,
+      "title": "Programmable Edge I/O & Long-Range LoRa Subsystems",
+      "entities": [
+        "RP2040",
+        "Raspberry Pi Ltd",
+        "Dual-core 32-bit Arm Cortex-M0+",
+        "PIO",
+        "USB 1.1",
+        "SX1262-LORA",
+        "Semtech Corporation",
+        "LoRa Chirp Spread Spectrum & (G)FSK RF Modulator"
+      ],
+      "summary": "Synergistic cluster combining flexible PIO state machines on RP2040 with Semtech SX1262 long-range Sub-GHz LoRa modulation up to +22 dBm.",
+      "findings": [
+        "RP2040 Programmable I/O handles bit-banging and non-standard protocol decoders without CPU overhead.",
+        "SX1262 requires low-ESR bulk capacitance to handle up to 118 mA burst current during high-power LoRa packet transmission."
+      ],
+      "rating": 8.8,
+      "rating_explanation": "Extensible modular prototyping and kilometer-range IoT telemetry for smart agriculture and remote sensors."
+    }
+  ],
+  "metadata": {
+    "node_count": 61,
+    "edge_count": 97,
+    "community_count": 8,
+    "text_unit_count": 10,
+    "generated_at": "2026-09-19T09:23:08Z",
+    "pipeline": "Microsoft GraphRAG Semiconductor Datasheet Pipeline"
+  }
+}

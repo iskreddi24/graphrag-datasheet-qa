@@ -1,0 +1,31 @@
+# Semiconductor Technical Datasheet: ESP32-S3-WROOM-1
+
+## 1. Product Overview & Identity
+- Part Identifier: ESP32-S3-WROOM-1
+- Product Title: Espressif ESP32-S3 Dual-Core AI SoC
+- Semiconductor Classification: Wireless SoC
+- Original Manufacturer: Espressif Systems
+- Physical Packaging: QFN-56 (7x7mm)
+- Thermal Operating Specification: -40°C to +85°C
+
+## 2. Processing Core & Architectural Profile
+- Core Architecture: Dual-core 32-bit Xtensa LX7
+- Peak Operating Clock: 240 MHz
+- Integrated Non-Volatile Flash: 8192 KB
+- High-Speed Static RAM (SRAM): 512 KB
+
+## 3. Electrical & Power Ratings
+- Minimum Recommended Supply Voltage: 3.0 V
+- Maximum Recommended Supply Voltage: 3.6 V
+- Typical Active Operating Current: 68.0 mA (at nominal clock)
+- Low-Power Sleep / Leakage Current: 5.0 uA (deep standby)
+
+## 4. Hardware Interfaces & Peripheral Buses
+- Supported Protocols and Busses: Wi-Fi 802.11 b/g/n, BLE 5.0, SPI, I2C, UART, USB-OTG
+
+## 5. System Interoperability & Companion ICs
+- Verified Compatible Companion Devices: BME688-MEMS, ATECC608A-TNGTLS
+- Primary Deployment Target Verticals: Edge AI Vision & Voice, Industrial IoT, Smart Home Gateway
+
+## 6. Critical Silicon Errata & Engineering Guidelines
+GPIO34 through GPIO39 are input-only and lack internal weak pull-up/pull-down resistors. Dedicated decoupling capacitors (10uF + 0.1uF) required close to VDD33 pins to prevent brownout during Wi-Fi calibration bursts.

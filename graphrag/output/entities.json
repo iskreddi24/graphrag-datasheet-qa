@@ -1,0 +1,671 @@
+[
+  {
+    "id": "ent_001",
+    "name": "ESP32-S3-WROOM-1",
+    "type": "COMPONENT",
+    "description": "Espressif ESP32-S3 Dual-Core AI SoC (Wireless SoC). Core: Dual-core 32-bit Xtensa LX7, Clock: 240MHz, Flash: 8192KB, SRAM: 512KB, Voltage: 3.0-3.6V, Active: 68.0mA, Sleep: 5.0uA, Package: QFN-56 (7x7mm)",
+    "degree": 12,
+    "community": 1,
+    "metadata": {
+      "component_name": "Espressif ESP32-S3 Dual-Core AI SoC",
+      "category": "Wireless SoC",
+      "max_clock_mhz": 240,
+      "flash_memory_kb": 8192,
+      "sram_kb": 512,
+      "voltage_range": "3.0V - 3.6V",
+      "active_current_ma": 68.0,
+      "sleep_current_ua": 5.0,
+      "package": "QFN-56 (7x7mm)",
+      "temp_range": "-40\u00b0C to +85\u00b0C",
+      "errata": "GPIO34 through GPIO39 are input-only and lack internal weak pull-up/pull-down resistors. Dedicated decoupling capacitors (10uF + 0.1uF) required close to VDD33 pins to prevent brownout during Wi-Fi calibration bursts."
+    }
+  },
+  {
+    "id": "ent_002",
+    "name": "Espressif Systems",
+    "type": "MANUFACTURER",
+    "description": "Semiconductor manufacturer and silicon vendor: Espressif Systems",
+    "degree": 1,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_003",
+    "name": "Dual-core 32-bit Xtensa LX7",
+    "type": "CORE_ARCHITECTURE",
+    "description": "Processor execution core or transducer architecture: Dual-core 32-bit Xtensa LX7",
+    "degree": 1,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_004",
+    "name": "Wi-Fi 802.11 b/g/n",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: Wi-Fi 802.11 b/g/n",
+    "degree": 1,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_005",
+    "name": "BLE 5.0",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: BLE 5.0",
+    "degree": 1,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_006",
+    "name": "SPI",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: SPI",
+    "degree": 9,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_007",
+    "name": "I2C",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: I2C",
+    "degree": 9,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_008",
+    "name": "UART",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: UART",
+    "degree": 7,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_009",
+    "name": "USB-OTG",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: USB-OTG",
+    "degree": 2,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_010",
+    "name": "STM32H743ZI",
+    "type": "COMPONENT",
+    "description": "STMicroelectronics STM32H7 High-Performance MCU (Microcontroller). Core: 32-bit Arm Cortex-M7 with DP-FPU, Clock: 480MHz, Flash: 2048KB, SRAM: 1024KB, Voltage: 1.71-3.6V, Active: 220.0mA, Sleep: 2.8uA, Package: LQFP-144 (20x20mm)",
+    "degree": 13,
+    "community": 2,
+    "metadata": {
+      "component_name": "STMicroelectronics STM32H7 High-Performance MCU",
+      "category": "Microcontroller",
+      "max_clock_mhz": 480,
+      "flash_memory_kb": 2048,
+      "sram_kb": 1024,
+      "voltage_range": "1.71V - 3.6V",
+      "active_current_ma": 220.0,
+      "sleep_current_ua": 2.8,
+      "package": "LQFP-144 (20x20mm)",
+      "temp_range": "-40\u00b0C to +85\u00b0C",
+      "errata": "Errata ES0392: AXI SRAM concurrent DMA reads during high-speed burst transfers may cause clock synchronization stalls unless AHB priority arbitration is configured. External SMPS power supply requires 4.7uH inductor."
+    }
+  },
+  {
+    "id": "ent_011",
+    "name": "STMicroelectronics",
+    "type": "MANUFACTURER",
+    "description": "Semiconductor manufacturer and silicon vendor: STMicroelectronics",
+    "degree": 2,
+    "community": 2,
+    "metadata": {}
+  },
+  {
+    "id": "ent_012",
+    "name": "32-bit Arm Cortex-M7 with DP-FPU",
+    "type": "CORE_ARCHITECTURE",
+    "description": "Processor execution core or transducer architecture: 32-bit Arm Cortex-M7 with DP-FPU",
+    "degree": 1,
+    "community": 2,
+    "metadata": {}
+  },
+  {
+    "id": "ent_013",
+    "name": "CAN-FD",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: CAN-FD",
+    "degree": 2,
+    "community": 2,
+    "metadata": {}
+  },
+  {
+    "id": "ent_014",
+    "name": "Ethernet 10/100",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: Ethernet 10/100",
+    "degree": 1,
+    "community": 2,
+    "metadata": {}
+  },
+  {
+    "id": "ent_015",
+    "name": "SAI",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: SAI",
+    "degree": 2,
+    "community": 2,
+    "metadata": {}
+  },
+  {
+    "id": "ent_016",
+    "name": "BME688-MEMS",
+    "type": "COMPONENT",
+    "description": "Bosch BME688 4-in-1 Gas Sensor with AI (MEMS Sensor). Core: MEMS Metal-Oxide Gas Transducer with ASIC, Clock: 0MHz, Flash: 0KB, SRAM: 0KB, Voltage: 1.71-3.6V, Active: 3.9mA, Sleep: 0.15uA, Package: LGA-8 (3.0x3.0x0.93mm)",
+    "degree": 12,
+    "community": 1,
+    "metadata": {
+      "component_name": "Bosch BME688 4-in-1 Gas Sensor with AI",
+      "category": "MEMS Sensor",
+      "max_clock_mhz": 0,
+      "flash_memory_kb": 0,
+      "sram_kb": 0,
+      "voltage_range": "1.71V - 3.6V",
+      "active_current_ma": 3.9,
+      "sleep_current_ua": 0.15,
+      "package": "LGA-8 (3.0x3.0x0.93mm)",
+      "temp_range": "-40\u00b0C to +85\u00b0C",
+      "errata": "Gas scanner hot-plate heater requires pulsed drive timing; continuous heater activation above 400\u00b0C degrades sensitive layer longevity. Ensure solder flux residues are ultrasonic cleaned to avoid baseline VOC drift."
+    }
+  },
+  {
+    "id": "ent_017",
+    "name": "Bosch Sensortec",
+    "type": "MANUFACTURER",
+    "description": "Semiconductor manufacturer and silicon vendor: Bosch Sensortec",
+    "degree": 1,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_018",
+    "name": "MEMS Metal-Oxide Gas Transducer with ASIC",
+    "type": "CORE_ARCHITECTURE",
+    "description": "Processor execution core or transducer architecture: MEMS Metal-Oxide Gas Transducer with ASIC",
+    "degree": 1,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_019",
+    "name": "ATECC608A-TNGTLS",
+    "type": "COMPONENT",
+    "description": "Microchip CryptoAuthentication Hardware Security Element (Hardware Security Element). Core: Hardware Cryptographic Engine with Secure EEPROM, Clock: 0MHz, Flash: 10KB, SRAM: 1KB, Voltage: 2.0-5.5V, Active: 1.0mA, Sleep: 0.05uA, Package: SOIC-8 (4.9x3.9mm)",
+    "degree": 12,
+    "community": 3,
+    "metadata": {
+      "component_name": "Microchip CryptoAuthentication Hardware Security Element",
+      "category": "Hardware Security Element",
+      "max_clock_mhz": 0,
+      "flash_memory_kb": 10,
+      "sram_kb": 1,
+      "voltage_range": "2.0V - 5.5V",
+      "active_current_ma": 1.0,
+      "sleep_current_ua": 0.05,
+      "package": "SOIC-8 (4.9x3.9mm)",
+      "temp_range": "-40\u00b0C to +85\u00b0C",
+      "errata": "Wake token requires SDA line driven LOW for minimum 60 microseconds before first I2C packet transmission. Configuration zone locks permanently after final production commissioning; test in unlocked development zone first."
+    }
+  },
+  {
+    "id": "ent_020",
+    "name": "Microchip Technology",
+    "type": "MANUFACTURER",
+    "description": "Semiconductor manufacturer and silicon vendor: Microchip Technology",
+    "degree": 1,
+    "community": 3,
+    "metadata": {}
+  },
+  {
+    "id": "ent_021",
+    "name": "Hardware Cryptographic Engine with Secure EEPROM",
+    "type": "CORE_ARCHITECTURE",
+    "description": "Processor execution core or transducer architecture: Hardware Cryptographic Engine with Secure EEPROM",
+    "degree": 1,
+    "community": 3,
+    "metadata": {}
+  },
+  {
+    "id": "ent_022",
+    "name": "Single-Wire Interface (SWI)",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: Single-Wire Interface (SWI)",
+    "degree": 1,
+    "community": 3,
+    "metadata": {}
+  },
+  {
+    "id": "ent_023",
+    "name": "nRF52840",
+    "type": "COMPONENT",
+    "description": "Nordic Semiconductor Multi-Protocol Bluetooth 5.3 SoC (Wireless SoC). Core: 32-bit Arm Cortex-M4F with FPU, Clock: 64MHz, Flash: 1024KB, SRAM: 256KB, Voltage: 1.7-5.5V, Active: 4.8mA, Sleep: 0.4uA, Package: aQFN-73 (7x7mm)",
+    "degree": 14,
+    "community": 4,
+    "metadata": {
+      "component_name": "Nordic Semiconductor Multi-Protocol Bluetooth 5.3 SoC",
+      "category": "Wireless SoC",
+      "max_clock_mhz": 64,
+      "flash_memory_kb": 1024,
+      "sram_kb": 256,
+      "voltage_range": "1.7V - 5.5V",
+      "active_current_ma": 4.8,
+      "sleep_current_ua": 0.4,
+      "package": "aQFN-73 (7x7mm)",
+      "temp_range": "-40\u00b0C to +105\u00b0C",
+      "errata": "Errata PAN-214: High DC-DC converter regulator ripple during high transmit power (+8 dBm) requires strict PCB ground stitching around C16/C17 matching network. NFC antenna pins NFC1/NFC2 default to NFC mode; reconfigure in UICR for standard GPIO usage."
+    }
+  },
+  {
+    "id": "ent_024",
+    "name": "Nordic Semiconductor",
+    "type": "MANUFACTURER",
+    "description": "Semiconductor manufacturer and silicon vendor: Nordic Semiconductor",
+    "degree": 1,
+    "community": 4,
+    "metadata": {}
+  },
+  {
+    "id": "ent_025",
+    "name": "32-bit Arm Cortex-M4F with FPU",
+    "type": "CORE_ARCHITECTURE",
+    "description": "Processor execution core or transducer architecture: 32-bit Arm Cortex-M4F with FPU",
+    "degree": 1,
+    "community": 4,
+    "metadata": {}
+  },
+  {
+    "id": "ent_026",
+    "name": "BLE 5.3",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: BLE 5.3",
+    "degree": 1,
+    "community": 4,
+    "metadata": {}
+  },
+  {
+    "id": "ent_027",
+    "name": "Thread",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: Thread",
+    "degree": 2,
+    "community": 4,
+    "metadata": {}
+  },
+  {
+    "id": "ent_028",
+    "name": "Zigbee",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: Zigbee",
+    "degree": 2,
+    "community": 4,
+    "metadata": {}
+  },
+  {
+    "id": "ent_029",
+    "name": "NFC",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: NFC",
+    "degree": 1,
+    "community": 4,
+    "metadata": {}
+  },
+  {
+    "id": "ent_030",
+    "name": "USB 2.0",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: USB 2.0",
+    "degree": 1,
+    "community": 4,
+    "metadata": {}
+  },
+  {
+    "id": "ent_031",
+    "name": "STM32U585",
+    "type": "COMPONENT",
+    "description": "STMicroelectronics Ultra-Low-Power Cortex-M33 MCU (Microcontroller). Core: 32-bit Arm Cortex-M33 with TrustZone, Clock: 160MHz, Flash: 2048KB, SRAM: 786KB, Voltage: 1.71-3.6V, Active: 19.0mA, Sleep: 1.2uA, Package: LQFP-100 (14x14mm)",
+    "degree": 10,
+    "community": 5,
+    "metadata": {
+      "component_name": "STMicroelectronics Ultra-Low-Power Cortex-M33 MCU",
+      "category": "Microcontroller",
+      "max_clock_mhz": 160,
+      "flash_memory_kb": 2048,
+      "sram_kb": 786,
+      "voltage_range": "1.71V - 3.6V",
+      "active_current_ma": 19.0,
+      "sleep_current_ua": 1.2,
+      "package": "LQFP-100 (14x14mm)",
+      "temp_range": "-40\u00b0C to +85\u00b0C",
+      "errata": "Low-power autonomous peripherals (LPBAM) require background SRAM4 retention voltage enabled in PWR register before entering Stop 3 sleep state. Ensure USB Type-C CC pins have pull-down terminations."
+    }
+  },
+  {
+    "id": "ent_032",
+    "name": "32-bit Arm Cortex-M33 with TrustZone",
+    "type": "CORE_ARCHITECTURE",
+    "description": "Processor execution core or transducer architecture: 32-bit Arm Cortex-M33 with TrustZone",
+    "degree": 1,
+    "community": 5,
+    "metadata": {}
+  },
+  {
+    "id": "ent_033",
+    "name": "USB-C FS",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: USB-C FS",
+    "degree": 1,
+    "community": 5,
+    "metadata": {}
+  },
+  {
+    "id": "ent_034",
+    "name": "CC2652R",
+    "type": "COMPONENT",
+    "description": "Texas Instruments SimpleLink Multiprotocol Wireless MCU (Wireless SoC). Core: 32-bit Arm Cortex-M4F + Sensor Controller Engine, Clock: 48MHz, Flash: 352KB, SRAM: 80KB, Voltage: 1.8-3.8V, Active: 6.9mA, Sleep: 0.9uA, Package: QFN-48 (7x7mm)",
+    "degree": 12,
+    "community": 6,
+    "metadata": {
+      "component_name": "Texas Instruments SimpleLink Multiprotocol Wireless MCU",
+      "category": "Wireless SoC",
+      "max_clock_mhz": 48,
+      "flash_memory_kb": 352,
+      "sram_kb": 80,
+      "voltage_range": "1.8V - 3.8V",
+      "active_current_ma": 6.9,
+      "sleep_current_ua": 0.9,
+      "package": "QFN-48 (7x7mm)",
+      "temp_range": "-40\u00b0C to +105\u00b0C",
+      "errata": "Sub-1GHz RF impedance match requires differential balun filter network. Sensor Controller Engine autonomous tasks must preserve memory boundaries to avoid overwriting shared system RAM buffers."
+    }
+  },
+  {
+    "id": "ent_035",
+    "name": "Texas Instruments",
+    "type": "MANUFACTURER",
+    "description": "Semiconductor manufacturer and silicon vendor: Texas Instruments",
+    "degree": 1,
+    "community": 6,
+    "metadata": {}
+  },
+  {
+    "id": "ent_036",
+    "name": "32-bit Arm Cortex-M4F + Sensor Controller Engine",
+    "type": "CORE_ARCHITECTURE",
+    "description": "Processor execution core or transducer architecture: 32-bit Arm Cortex-M4F + Sensor Controller Engine",
+    "degree": 1,
+    "community": 6,
+    "metadata": {}
+  },
+  {
+    "id": "ent_037",
+    "name": "BLE 5.2",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: BLE 5.2",
+    "degree": 2,
+    "community": 6,
+    "metadata": {}
+  },
+  {
+    "id": "ent_038",
+    "name": "Sub-1GHz",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: Sub-1GHz",
+    "degree": 1,
+    "community": 6,
+    "metadata": {}
+  },
+  {
+    "id": "ent_039",
+    "name": "MAX32666",
+    "type": "COMPONENT",
+    "description": "Analog Devices / Maxim Low-Power Dual-Core BLE MCU (Wireless SoC). Core: Dual-core Arm Cortex-M4F with FPU + BLE 5.2, Clock: 96MHz, Flash: 1024KB, SRAM: 560KB, Voltage: 1.71-3.6V, Active: 8.5mA, Sleep: 1.5uA, Package: WLP-108 (4.4x4.4mm)",
+    "degree": 10,
+    "community": 7,
+    "metadata": {
+      "component_name": "Analog Devices / Maxim Low-Power Dual-Core BLE MCU",
+      "category": "Wireless SoC",
+      "max_clock_mhz": 96,
+      "flash_memory_kb": 1024,
+      "sram_kb": 560,
+      "voltage_range": "1.71V - 3.6V",
+      "active_current_ma": 8.5,
+      "sleep_current_ua": 1.5,
+      "package": "WLP-108 (4.4x4.4mm)",
+      "temp_range": "-40\u00b0C to +105\u00b0C",
+      "errata": "SIMO buck regulator output voltages must be sequenced in strict order (VREG1 -> VREG2) during cold power-on. Wafer-Level Packaging (WLP) requires underfill epoxy to mitigate solder fatigue in thermal cycling."
+    }
+  },
+  {
+    "id": "ent_040",
+    "name": "Analog Devices",
+    "type": "MANUFACTURER",
+    "description": "Semiconductor manufacturer and silicon vendor: Analog Devices",
+    "degree": 1,
+    "community": 7,
+    "metadata": {}
+  },
+  {
+    "id": "ent_041",
+    "name": "Dual-core Arm Cortex-M4F with FPU + BLE 5.2",
+    "type": "CORE_ARCHITECTURE",
+    "description": "Processor execution core or transducer architecture: Dual-core Arm Cortex-M4F with FPU + BLE 5.2",
+    "degree": 1,
+    "community": 7,
+    "metadata": {}
+  },
+  {
+    "id": "ent_042",
+    "name": "1-Wire",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: 1-Wire",
+    "degree": 1,
+    "community": 7,
+    "metadata": {}
+  },
+  {
+    "id": "ent_043",
+    "name": "USB-FS",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: USB-FS",
+    "degree": 1,
+    "community": 7,
+    "metadata": {}
+  },
+  {
+    "id": "ent_044",
+    "name": "RP2040",
+    "type": "COMPONENT",
+    "description": "Raspberry Pi RP2040 Dual Cortex-M0+ Microcontroller (Microcontroller). Core: Dual-core 32-bit Arm Cortex-M0+, Clock: 133MHz, Flash: 0KB, SRAM: 264KB, Voltage: 1.8-3.3V, Active: 18.0mA, Sleep: 180.0uA, Package: QFN-56 (7x7mm)",
+    "degree": 11,
+    "community": 8,
+    "metadata": {
+      "component_name": "Raspberry Pi RP2040 Dual Cortex-M0+ Microcontroller",
+      "category": "Microcontroller",
+      "max_clock_mhz": 133,
+      "flash_memory_kb": 0,
+      "sram_kb": 264,
+      "voltage_range": "1.8V - 3.3V",
+      "active_current_ma": 18.0,
+      "sleep_current_ua": 180.0,
+      "package": "QFN-56 (7x7mm)",
+      "temp_range": "-20\u00b0C to +85\u00b0C",
+      "errata": "RP2040-E5 errata: USB bootloader pull-up resistor anomaly on early silicon stepping requires external 1k pull-up resistor or software work-around. Lacks on-chip non-volatile flash; requires external QSPI Flash memory (Winbond W25Q16/W25Q32)."
+    }
+  },
+  {
+    "id": "ent_045",
+    "name": "Raspberry Pi Ltd",
+    "type": "MANUFACTURER",
+    "description": "Semiconductor manufacturer and silicon vendor: Raspberry Pi Ltd",
+    "degree": 1,
+    "community": 8,
+    "metadata": {}
+  },
+  {
+    "id": "ent_046",
+    "name": "Dual-core 32-bit Arm Cortex-M0+",
+    "type": "CORE_ARCHITECTURE",
+    "description": "Processor execution core or transducer architecture: Dual-core 32-bit Arm Cortex-M0+",
+    "degree": 1,
+    "community": 8,
+    "metadata": {}
+  },
+  {
+    "id": "ent_047",
+    "name": "USB 1.1",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: USB 1.1",
+    "degree": 1,
+    "community": 8,
+    "metadata": {}
+  },
+  {
+    "id": "ent_048",
+    "name": "PIO",
+    "type": "PROTOCOL",
+    "description": "Hardware peripheral bus or wireless RF interface standard: PIO",
+    "degree": 1,
+    "community": 8,
+    "metadata": {}
+  },
+  {
+    "id": "ent_049",
+    "name": "SX1262-LORA",
+    "type": "COMPONENT",
+    "description": "Semtech SX1262 Long-Range Sub-GHz RF Transceiver (RF Transceiver). Core: LoRa Chirp Spread Spectrum & (G)FSK RF Modulator, Clock: 32MHz, Flash: 0KB, SRAM: 0KB, Voltage: 1.8-3.7V, Active: 4.2mA, Sleep: 0.16uA, Package: QFN-24 (4x4mm)",
+    "degree": 7,
+    "community": 8,
+    "metadata": {
+      "component_name": "Semtech SX1262 Long-Range Sub-GHz RF Transceiver",
+      "category": "RF Transceiver",
+      "max_clock_mhz": 32,
+      "flash_memory_kb": 0,
+      "sram_kb": 0,
+      "voltage_range": "1.8V - 3.7V",
+      "active_current_ma": 4.2,
+      "sleep_current_ua": 0.16,
+      "package": "QFN-24 (4x4mm)",
+      "temp_range": "-40\u00b0C to +85\u00b0C",
+      "errata": "High transmit power output (+22 dBm) causes substantial peak current consumption (up to 118 mA). Must implement low-ESR bulk capacitance on VBAT_RF and ensure antenna matching network complies with ETSI/FCC harmonics limits."
+    }
+  },
+  {
+    "id": "ent_050",
+    "name": "Semtech Corporation",
+    "type": "MANUFACTURER",
+    "description": "Semiconductor manufacturer and silicon vendor: Semtech Corporation",
+    "degree": 1,
+    "community": 8,
+    "metadata": {}
+  },
+  {
+    "id": "ent_051",
+    "name": "LoRa Chirp Spread Spectrum & (G)FSK RF Modulator",
+    "type": "CORE_ARCHITECTURE",
+    "description": "Processor execution core or transducer architecture: LoRa Chirp Spread Spectrum & (G)FSK RF Modulator",
+    "degree": 1,
+    "community": 8,
+    "metadata": {}
+  },
+  {
+    "id": "ent_052",
+    "name": "QSPI Flash Bus",
+    "type": "PROTOCOL",
+    "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: QSPI Flash Bus",
+    "degree": 0,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_053",
+    "name": "JTAG IEEE 1149.1",
+    "type": "PROTOCOL",
+    "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: JTAG IEEE 1149.1",
+    "degree": 0,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_054",
+    "name": "SWD Arm Serial Wire",
+    "type": "PROTOCOL",
+    "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: SWD Arm Serial Wire",
+    "degree": 0,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_055",
+    "name": "I2S Digital Audio",
+    "type": "PROTOCOL",
+    "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: I2S Digital Audio",
+    "degree": 0,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_056",
+    "name": "DVP Camera Parallel Interface",
+    "type": "PROTOCOL",
+    "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: DVP Camera Parallel Interface",
+    "degree": 0,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_057",
+    "name": "MIPI-CSI2",
+    "type": "PROTOCOL",
+    "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: MIPI-CSI2",
+    "degree": 0,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_058",
+    "name": "LIN Automotive Bus",
+    "type": "PROTOCOL",
+    "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: LIN Automotive Bus",
+    "degree": 0,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_059",
+    "name": "Modbus RTU",
+    "type": "PROTOCOL",
+    "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: Modbus RTU",
+    "degree": 0,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_060",
+    "name": "FSK Modulator",
+    "type": "PROTOCOL",
+    "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: FSK Modulator",
+    "degree": 0,
+    "community": 1,
+    "metadata": {}
+  },
+  {
+    "id": "ent_061",
+    "name": "LoRa Chirp Spread Spectrum",
+    "type": "PROTOCOL",
+    "description": "Industry standard peripheral bus protocol specified across MCU evaluation boards: LoRa Chirp Spread Spectrum",
+    "degree": 0,
+    "community": 1,
+    "metadata": {}
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "Microsoft GraphRAG Semiconductor Datasheet Intelligence",
+  "description": "Production-grade GraphRAG pipeline and interactive knowledge graph visualizer for technical semiconductor datasheets",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

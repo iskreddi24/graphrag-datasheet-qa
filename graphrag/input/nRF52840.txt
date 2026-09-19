@@ -1,0 +1,31 @@
+# Semiconductor Technical Datasheet: nRF52840
+
+## 1. Product Overview & Identity
+- Part Identifier: nRF52840
+- Product Title: Nordic Semiconductor Multi-Protocol Bluetooth 5.3 SoC
+- Semiconductor Classification: Wireless SoC
+- Original Manufacturer: Nordic Semiconductor
+- Physical Packaging: aQFN-73 (7x7mm)
+- Thermal Operating Specification: -40°C to +105°C
+
+## 2. Processing Core & Architectural Profile
+- Core Architecture: 32-bit Arm Cortex-M4F with FPU
+- Peak Operating Clock: 64 MHz
+- Integrated Non-Volatile Flash: 1024 KB
+- High-Speed Static RAM (SRAM): 256 KB
+
+## 3. Electrical & Power Ratings
+- Minimum Recommended Supply Voltage: 1.7 V
+- Maximum Recommended Supply Voltage: 5.5 V
+- Typical Active Operating Current: 4.8 mA (at nominal clock)
+- Low-Power Sleep / Leakage Current: 0.4 uA (deep standby)
+
+## 4. Hardware Interfaces & Peripheral Buses
+- Supported Protocols and Busses: BLE 5.3, Thread, Zigbee, NFC, USB 2.0, SPI, I2C, UART
+
+## 5. System Interoperability & Companion ICs
+- Verified Compatible Companion Devices: BME688-MEMS, ATECC608A-TNGTLS, SX1262-LORA
+- Primary Deployment Target Verticals: Medical Wearables, Connected Health, Asset Tracking, Smart Lighting
+
+## 6. Critical Silicon Errata & Engineering Guidelines
+Errata PAN-214: High DC-DC converter regulator ripple during high transmit power (+8 dBm) requires strict PCB ground stitching around C16/C17 matching network. NFC antenna pins NFC1/NFC2 default to NFC mode; reconfigure in UICR for standard GPIO usage.

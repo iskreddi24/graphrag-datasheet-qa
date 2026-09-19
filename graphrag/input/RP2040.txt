@@ -1,0 +1,31 @@
+# Semiconductor Technical Datasheet: RP2040
+
+## 1. Product Overview & Identity
+- Part Identifier: RP2040
+- Product Title: Raspberry Pi RP2040 Dual Cortex-M0+ Microcontroller
+- Semiconductor Classification: Microcontroller
+- Original Manufacturer: Raspberry Pi Ltd
+- Physical Packaging: QFN-56 (7x7mm)
+- Thermal Operating Specification: -20°C to +85°C
+
+## 2. Processing Core & Architectural Profile
+- Core Architecture: Dual-core 32-bit Arm Cortex-M0+
+- Peak Operating Clock: 133 MHz
+- Integrated Non-Volatile Flash: 0 KB
+- High-Speed Static RAM (SRAM): 264 KB
+
+## 3. Electrical & Power Ratings
+- Minimum Recommended Supply Voltage: 1.8 V
+- Maximum Recommended Supply Voltage: 3.3 V
+- Typical Active Operating Current: 18.0 mA (at nominal clock)
+- Low-Power Sleep / Leakage Current: 180.0 uA (deep standby)
+
+## 4. Hardware Interfaces & Peripheral Buses
+- Supported Protocols and Busses: SPI, I2C, UART, USB 1.1, PIO
+
+## 5. System Interoperability & Companion ICs
+- Verified Compatible Companion Devices: BME688-MEMS, ATECC608A-TNGTLS, SX1262-LORA
+- Primary Deployment Target Verticals: Embedded Prototyping, Custom Protocol Translation, Education, USB Peripherals
+
+## 6. Critical Silicon Errata & Engineering Guidelines
+RP2040-E5 errata: USB bootloader pull-up resistor anomaly on early silicon stepping requires external 1k pull-up resistor or software work-around. Lacks on-chip non-volatile flash; requires external QSPI Flash memory (Winbond W25Q16/W25Q32).

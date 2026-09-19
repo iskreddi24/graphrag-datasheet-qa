@@ -1,0 +1,778 @@
+[
+  {
+    "id": "rel_001",
+    "source": "ESP32-S3-WROOM-1",
+    "target": "Espressif Systems",
+    "type": "MANUFACTURED_BY",
+    "description": "ESP32-S3-WROOM-1 is manufactured and supported by Espressif Systems",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_002",
+    "source": "ESP32-S3-WROOM-1",
+    "target": "Dual-core 32-bit Xtensa LX7",
+    "type": "POWERED_BY_CORE",
+    "description": "ESP32-S3-WROOM-1 computational architecture is powered by Dual-core 32-bit Xtensa LX7",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_003",
+    "source": "ESP32-S3-WROOM-1",
+    "target": "Wi-Fi 802.11 b/g/n",
+    "type": "COMMUNICATES_VIA",
+    "description": "ESP32-S3-WROOM-1 natively communicates over Wi-Fi 802.11 b/g/n",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_004",
+    "source": "ESP32-S3-WROOM-1",
+    "target": "BLE 5.0",
+    "type": "COMMUNICATES_VIA",
+    "description": "ESP32-S3-WROOM-1 natively communicates over BLE 5.0",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_005",
+    "source": "ESP32-S3-WROOM-1",
+    "target": "SPI",
+    "type": "COMMUNICATES_VIA",
+    "description": "ESP32-S3-WROOM-1 natively communicates over SPI",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_006",
+    "source": "ESP32-S3-WROOM-1",
+    "target": "I2C",
+    "type": "COMMUNICATES_VIA",
+    "description": "ESP32-S3-WROOM-1 natively communicates over I2C",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_007",
+    "source": "ESP32-S3-WROOM-1",
+    "target": "UART",
+    "type": "COMMUNICATES_VIA",
+    "description": "ESP32-S3-WROOM-1 natively communicates over UART",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_008",
+    "source": "ESP32-S3-WROOM-1",
+    "target": "USB-OTG",
+    "type": "COMMUNICATES_VIA",
+    "description": "ESP32-S3-WROOM-1 natively communicates over USB-OTG",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_009",
+    "source": "ESP32-S3-WROOM-1",
+    "target": "BME688-MEMS",
+    "type": "COMPATIBLE_WITH",
+    "description": "ESP32-S3-WROOM-1 verified interoperable with companion IC BME688-MEMS",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_010",
+    "source": "ESP32-S3-WROOM-1",
+    "target": "ATECC608A-TNGTLS",
+    "type": "COMPATIBLE_WITH",
+    "description": "ESP32-S3-WROOM-1 verified interoperable with companion IC ATECC608A-TNGTLS",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_011",
+    "source": "STM32H743ZI",
+    "target": "STMicroelectronics",
+    "type": "MANUFACTURED_BY",
+    "description": "STM32H743ZI is manufactured and supported by STMicroelectronics",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_012",
+    "source": "STM32H743ZI",
+    "target": "32-bit Arm Cortex-M7 with DP-FPU",
+    "type": "POWERED_BY_CORE",
+    "description": "STM32H743ZI computational architecture is powered by 32-bit Arm Cortex-M7 with DP-FPU",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_013",
+    "source": "STM32H743ZI",
+    "target": "CAN-FD",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32H743ZI natively communicates over CAN-FD",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_014",
+    "source": "STM32H743ZI",
+    "target": "SPI",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32H743ZI natively communicates over SPI",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_015",
+    "source": "STM32H743ZI",
+    "target": "I2C",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32H743ZI natively communicates over I2C",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_016",
+    "source": "STM32H743ZI",
+    "target": "UART",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32H743ZI natively communicates over UART",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_017",
+    "source": "STM32H743ZI",
+    "target": "Ethernet 10/100",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32H743ZI natively communicates over Ethernet 10/100",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_018",
+    "source": "STM32H743ZI",
+    "target": "USB-OTG",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32H743ZI natively communicates over USB-OTG",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_019",
+    "source": "STM32H743ZI",
+    "target": "SAI",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32H743ZI natively communicates over SAI",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_020",
+    "source": "STM32H743ZI",
+    "target": "SX1262-LORA",
+    "type": "COMPATIBLE_WITH",
+    "description": "STM32H743ZI verified interoperable with companion IC SX1262-LORA",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_021",
+    "source": "STM32H743ZI",
+    "target": "ATECC608A-TNGTLS",
+    "type": "COMPATIBLE_WITH",
+    "description": "STM32H743ZI verified interoperable with companion IC ATECC608A-TNGTLS",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_022",
+    "source": "BME688-MEMS",
+    "target": "Bosch Sensortec",
+    "type": "MANUFACTURED_BY",
+    "description": "BME688-MEMS is manufactured and supported by Bosch Sensortec",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_023",
+    "source": "BME688-MEMS",
+    "target": "MEMS Metal-Oxide Gas Transducer with ASIC",
+    "type": "POWERED_BY_CORE",
+    "description": "BME688-MEMS computational architecture is powered by MEMS Metal-Oxide Gas Transducer with ASIC",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_024",
+    "source": "BME688-MEMS",
+    "target": "I2C",
+    "type": "COMMUNICATES_VIA",
+    "description": "BME688-MEMS natively communicates over I2C",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_025",
+    "source": "BME688-MEMS",
+    "target": "SPI",
+    "type": "COMMUNICATES_VIA",
+    "description": "BME688-MEMS natively communicates over SPI",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_026",
+    "source": "BME688-MEMS",
+    "target": "ESP32-S3-WROOM-1",
+    "type": "COMPATIBLE_WITH",
+    "description": "BME688-MEMS verified interoperable with companion IC ESP32-S3-WROOM-1",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_027",
+    "source": "BME688-MEMS",
+    "target": "nRF52840",
+    "type": "COMPATIBLE_WITH",
+    "description": "BME688-MEMS verified interoperable with companion IC nRF52840",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_028",
+    "source": "BME688-MEMS",
+    "target": "STM32U585",
+    "type": "COMPATIBLE_WITH",
+    "description": "BME688-MEMS verified interoperable with companion IC STM32U585",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_029",
+    "source": "ATECC608A-TNGTLS",
+    "target": "Microchip Technology",
+    "type": "MANUFACTURED_BY",
+    "description": "ATECC608A-TNGTLS is manufactured and supported by Microchip Technology",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_030",
+    "source": "ATECC608A-TNGTLS",
+    "target": "Hardware Cryptographic Engine with Secure EEPROM",
+    "type": "POWERED_BY_CORE",
+    "description": "ATECC608A-TNGTLS computational architecture is powered by Hardware Cryptographic Engine with Secure EEPROM",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_031",
+    "source": "ATECC608A-TNGTLS",
+    "target": "I2C",
+    "type": "COMMUNICATES_VIA",
+    "description": "ATECC608A-TNGTLS natively communicates over I2C",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_032",
+    "source": "ATECC608A-TNGTLS",
+    "target": "Single-Wire Interface (SWI)",
+    "type": "COMMUNICATES_VIA",
+    "description": "ATECC608A-TNGTLS natively communicates over Single-Wire Interface (SWI)",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_033",
+    "source": "ATECC608A-TNGTLS",
+    "target": "ESP32-S3-WROOM-1",
+    "type": "COMPATIBLE_WITH",
+    "description": "ATECC608A-TNGTLS verified interoperable with companion IC ESP32-S3-WROOM-1",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_034",
+    "source": "ATECC608A-TNGTLS",
+    "target": "STM32H743ZI",
+    "type": "COMPATIBLE_WITH",
+    "description": "ATECC608A-TNGTLS verified interoperable with companion IC STM32H743ZI",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_035",
+    "source": "ATECC608A-TNGTLS",
+    "target": "nRF52840",
+    "type": "COMPATIBLE_WITH",
+    "description": "ATECC608A-TNGTLS verified interoperable with companion IC nRF52840",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_036",
+    "source": "ATECC608A-TNGTLS",
+    "target": "RP2040",
+    "type": "COMPATIBLE_WITH",
+    "description": "ATECC608A-TNGTLS verified interoperable with companion IC RP2040",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_037",
+    "source": "nRF52840",
+    "target": "Nordic Semiconductor",
+    "type": "MANUFACTURED_BY",
+    "description": "nRF52840 is manufactured and supported by Nordic Semiconductor",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_038",
+    "source": "nRF52840",
+    "target": "32-bit Arm Cortex-M4F with FPU",
+    "type": "POWERED_BY_CORE",
+    "description": "nRF52840 computational architecture is powered by 32-bit Arm Cortex-M4F with FPU",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_039",
+    "source": "nRF52840",
+    "target": "BLE 5.3",
+    "type": "COMMUNICATES_VIA",
+    "description": "nRF52840 natively communicates over BLE 5.3",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_040",
+    "source": "nRF52840",
+    "target": "Thread",
+    "type": "COMMUNICATES_VIA",
+    "description": "nRF52840 natively communicates over Thread",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_041",
+    "source": "nRF52840",
+    "target": "Zigbee",
+    "type": "COMMUNICATES_VIA",
+    "description": "nRF52840 natively communicates over Zigbee",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_042",
+    "source": "nRF52840",
+    "target": "NFC",
+    "type": "COMMUNICATES_VIA",
+    "description": "nRF52840 natively communicates over NFC",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_043",
+    "source": "nRF52840",
+    "target": "USB 2.0",
+    "type": "COMMUNICATES_VIA",
+    "description": "nRF52840 natively communicates over USB 2.0",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_044",
+    "source": "nRF52840",
+    "target": "SPI",
+    "type": "COMMUNICATES_VIA",
+    "description": "nRF52840 natively communicates over SPI",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_045",
+    "source": "nRF52840",
+    "target": "I2C",
+    "type": "COMMUNICATES_VIA",
+    "description": "nRF52840 natively communicates over I2C",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_046",
+    "source": "nRF52840",
+    "target": "UART",
+    "type": "COMMUNICATES_VIA",
+    "description": "nRF52840 natively communicates over UART",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_047",
+    "source": "nRF52840",
+    "target": "BME688-MEMS",
+    "type": "COMPATIBLE_WITH",
+    "description": "nRF52840 verified interoperable with companion IC BME688-MEMS",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_048",
+    "source": "nRF52840",
+    "target": "ATECC608A-TNGTLS",
+    "type": "COMPATIBLE_WITH",
+    "description": "nRF52840 verified interoperable with companion IC ATECC608A-TNGTLS",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_049",
+    "source": "nRF52840",
+    "target": "SX1262-LORA",
+    "type": "COMPATIBLE_WITH",
+    "description": "nRF52840 verified interoperable with companion IC SX1262-LORA",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_050",
+    "source": "STM32U585",
+    "target": "STMicroelectronics",
+    "type": "MANUFACTURED_BY",
+    "description": "STM32U585 is manufactured and supported by STMicroelectronics",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_051",
+    "source": "STM32U585",
+    "target": "32-bit Arm Cortex-M33 with TrustZone",
+    "type": "POWERED_BY_CORE",
+    "description": "STM32U585 computational architecture is powered by 32-bit Arm Cortex-M33 with TrustZone",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_052",
+    "source": "STM32U585",
+    "target": "CAN-FD",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32U585 natively communicates over CAN-FD",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_053",
+    "source": "STM32U585",
+    "target": "USB-C FS",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32U585 natively communicates over USB-C FS",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_054",
+    "source": "STM32U585",
+    "target": "SPI",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32U585 natively communicates over SPI",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_055",
+    "source": "STM32U585",
+    "target": "I2C",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32U585 natively communicates over I2C",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_056",
+    "source": "STM32U585",
+    "target": "UART",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32U585 natively communicates over UART",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_057",
+    "source": "STM32U585",
+    "target": "SAI",
+    "type": "COMMUNICATES_VIA",
+    "description": "STM32U585 natively communicates over SAI",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_058",
+    "source": "STM32U585",
+    "target": "BME688-MEMS",
+    "type": "COMPATIBLE_WITH",
+    "description": "STM32U585 verified interoperable with companion IC BME688-MEMS",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_059",
+    "source": "STM32U585",
+    "target": "ATECC608A-TNGTLS",
+    "type": "COMPATIBLE_WITH",
+    "description": "STM32U585 verified interoperable with companion IC ATECC608A-TNGTLS",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_060",
+    "source": "CC2652R",
+    "target": "Texas Instruments",
+    "type": "MANUFACTURED_BY",
+    "description": "CC2652R is manufactured and supported by Texas Instruments",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_061",
+    "source": "CC2652R",
+    "target": "32-bit Arm Cortex-M4F + Sensor Controller Engine",
+    "type": "POWERED_BY_CORE",
+    "description": "CC2652R computational architecture is powered by 32-bit Arm Cortex-M4F + Sensor Controller Engine",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_062",
+    "source": "CC2652R",
+    "target": "BLE 5.2",
+    "type": "COMMUNICATES_VIA",
+    "description": "CC2652R natively communicates over BLE 5.2",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_063",
+    "source": "CC2652R",
+    "target": "Thread",
+    "type": "COMMUNICATES_VIA",
+    "description": "CC2652R natively communicates over Thread",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_064",
+    "source": "CC2652R",
+    "target": "Zigbee",
+    "type": "COMMUNICATES_VIA",
+    "description": "CC2652R natively communicates over Zigbee",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_065",
+    "source": "CC2652R",
+    "target": "Sub-1GHz",
+    "type": "COMMUNICATES_VIA",
+    "description": "CC2652R natively communicates over Sub-1GHz",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_066",
+    "source": "CC2652R",
+    "target": "SPI",
+    "type": "COMMUNICATES_VIA",
+    "description": "CC2652R natively communicates over SPI",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_067",
+    "source": "CC2652R",
+    "target": "I2C",
+    "type": "COMMUNICATES_VIA",
+    "description": "CC2652R natively communicates over I2C",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_068",
+    "source": "CC2652R",
+    "target": "UART",
+    "type": "COMMUNICATES_VIA",
+    "description": "CC2652R natively communicates over UART",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_069",
+    "source": "CC2652R",
+    "target": "BME688-MEMS",
+    "type": "COMPATIBLE_WITH",
+    "description": "CC2652R verified interoperable with companion IC BME688-MEMS",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_070",
+    "source": "CC2652R",
+    "target": "SX1262-LORA",
+    "type": "COMPATIBLE_WITH",
+    "description": "CC2652R verified interoperable with companion IC SX1262-LORA",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_071",
+    "source": "MAX32666",
+    "target": "Analog Devices",
+    "type": "MANUFACTURED_BY",
+    "description": "MAX32666 is manufactured and supported by Analog Devices",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_072",
+    "source": "MAX32666",
+    "target": "Dual-core Arm Cortex-M4F with FPU + BLE 5.2",
+    "type": "POWERED_BY_CORE",
+    "description": "MAX32666 computational architecture is powered by Dual-core Arm Cortex-M4F with FPU + BLE 5.2",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_073",
+    "source": "MAX32666",
+    "target": "BLE 5.2",
+    "type": "COMMUNICATES_VIA",
+    "description": "MAX32666 natively communicates over BLE 5.2",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_074",
+    "source": "MAX32666",
+    "target": "SPI",
+    "type": "COMMUNICATES_VIA",
+    "description": "MAX32666 natively communicates over SPI",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_075",
+    "source": "MAX32666",
+    "target": "I2C",
+    "type": "COMMUNICATES_VIA",
+    "description": "MAX32666 natively communicates over I2C",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_076",
+    "source": "MAX32666",
+    "target": "UART",
+    "type": "COMMUNICATES_VIA",
+    "description": "MAX32666 natively communicates over UART",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_077",
+    "source": "MAX32666",
+    "target": "1-Wire",
+    "type": "COMMUNICATES_VIA",
+    "description": "MAX32666 natively communicates over 1-Wire",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_078",
+    "source": "MAX32666",
+    "target": "USB-FS",
+    "type": "COMMUNICATES_VIA",
+    "description": "MAX32666 natively communicates over USB-FS",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_079",
+    "source": "MAX32666",
+    "target": "BME688-MEMS",
+    "type": "COMPATIBLE_WITH",
+    "description": "MAX32666 verified interoperable with companion IC BME688-MEMS",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_080",
+    "source": "MAX32666",
+    "target": "ATECC608A-TNGTLS",
+    "type": "COMPATIBLE_WITH",
+    "description": "MAX32666 verified interoperable with companion IC ATECC608A-TNGTLS",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_081",
+    "source": "RP2040",
+    "target": "Raspberry Pi Ltd",
+    "type": "MANUFACTURED_BY",
+    "description": "RP2040 is manufactured and supported by Raspberry Pi Ltd",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_082",
+    "source": "RP2040",
+    "target": "Dual-core 32-bit Arm Cortex-M0+",
+    "type": "POWERED_BY_CORE",
+    "description": "RP2040 computational architecture is powered by Dual-core 32-bit Arm Cortex-M0+",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_083",
+    "source": "RP2040",
+    "target": "SPI",
+    "type": "COMMUNICATES_VIA",
+    "description": "RP2040 natively communicates over SPI",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_084",
+    "source": "RP2040",
+    "target": "I2C",
+    "type": "COMMUNICATES_VIA",
+    "description": "RP2040 natively communicates over I2C",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_085",
+    "source": "RP2040",
+    "target": "UART",
+    "type": "COMMUNICATES_VIA",
+    "description": "RP2040 natively communicates over UART",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_086",
+    "source": "RP2040",
+    "target": "USB 1.1",
+    "type": "COMMUNICATES_VIA",
+    "description": "RP2040 natively communicates over USB 1.1",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_087",
+    "source": "RP2040",
+    "target": "PIO",
+    "type": "COMMUNICATES_VIA",
+    "description": "RP2040 natively communicates over PIO",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_088",
+    "source": "RP2040",
+    "target": "BME688-MEMS",
+    "type": "COMPATIBLE_WITH",
+    "description": "RP2040 verified interoperable with companion IC BME688-MEMS",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_089",
+    "source": "RP2040",
+    "target": "ATECC608A-TNGTLS",
+    "type": "COMPATIBLE_WITH",
+    "description": "RP2040 verified interoperable with companion IC ATECC608A-TNGTLS",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_090",
+    "source": "RP2040",
+    "target": "SX1262-LORA",
+    "type": "COMPATIBLE_WITH",
+    "description": "RP2040 verified interoperable with companion IC SX1262-LORA",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_091",
+    "source": "SX1262-LORA",
+    "target": "Semtech Corporation",
+    "type": "MANUFACTURED_BY",
+    "description": "SX1262-LORA is manufactured and supported by Semtech Corporation",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_092",
+    "source": "SX1262-LORA",
+    "target": "LoRa Chirp Spread Spectrum & (G)FSK RF Modulator",
+    "type": "POWERED_BY_CORE",
+    "description": "SX1262-LORA computational architecture is powered by LoRa Chirp Spread Spectrum & (G)FSK RF Modulator",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_093",
+    "source": "SX1262-LORA",
+    "target": "SPI",
+    "type": "COMMUNICATES_VIA",
+    "description": "SX1262-LORA natively communicates over SPI",
+    "weight": 1.0
+  },
+  {
+    "id": "rel_094",
+    "source": "SX1262-LORA",
+    "target": "STM32H743ZI",
+    "type": "COMPATIBLE_WITH",
+    "description": "SX1262-LORA verified interoperable with companion IC STM32H743ZI",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_095",
+    "source": "SX1262-LORA",
+    "target": "nRF52840",
+    "type": "COMPATIBLE_WITH",
+    "description": "SX1262-LORA verified interoperable with companion IC nRF52840",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_096",
+    "source": "SX1262-LORA",
+    "target": "CC2652R",
+    "type": "COMPATIBLE_WITH",
+    "description": "SX1262-LORA verified interoperable with companion IC CC2652R",
+    "weight": 1.2
+  },
+  {
+    "id": "rel_097",
+    "source": "SX1262-LORA",
+    "target": "RP2040",
+    "type": "COMPATIBLE_WITH",
+    "description": "SX1262-LORA verified interoperable with companion IC RP2040",
+    "weight": 1.2
+  }
+]

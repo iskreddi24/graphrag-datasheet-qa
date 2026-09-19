@@ -1,0 +1,31 @@
+# Semiconductor Technical Datasheet: ATECC608A-TNGTLS
+
+## 1. Product Overview & Identity
+- Part Identifier: ATECC608A-TNGTLS
+- Product Title: Microchip CryptoAuthentication Hardware Security Element
+- Semiconductor Classification: Hardware Security Element
+- Original Manufacturer: Microchip Technology
+- Physical Packaging: SOIC-8 (4.9x3.9mm)
+- Thermal Operating Specification: -40°C to +85°C
+
+## 2. Processing Core & Architectural Profile
+- Core Architecture: Hardware Cryptographic Engine with Secure EEPROM
+- Peak Operating Clock: 0 MHz
+- Integrated Non-Volatile Flash: 10 KB
+- High-Speed Static RAM (SRAM): 1 KB
+
+## 3. Electrical & Power Ratings
+- Minimum Recommended Supply Voltage: 2.0 V
+- Maximum Recommended Supply Voltage: 5.5 V
+- Typical Active Operating Current: 1.0 mA (at nominal clock)
+- Low-Power Sleep / Leakage Current: 0.05 uA (deep standby)
+
+## 4. Hardware Interfaces & Peripheral Buses
+- Supported Protocols and Busses: I2C, Single-Wire Interface (SWI)
+
+## 5. System Interoperability & Companion ICs
+- Verified Compatible Companion Devices: ESP32-S3-WROOM-1, STM32H743ZI, nRF52840, RP2040
+- Primary Deployment Target Verticals: Secure Boot, Zero-Touch Cloud Provisioning, TLS Session Encryption, Anti-Counterfeiting
+
+## 6. Critical Silicon Errata & Engineering Guidelines
+Wake token requires SDA line driven LOW for minimum 60 microseconds before first I2C packet transmission. Configuration zone locks permanently after final production commissioning; test in unlocked development zone first.

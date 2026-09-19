@@ -1,0 +1,31 @@
+# Semiconductor Technical Datasheet: STM32U585
+
+## 1. Product Overview & Identity
+- Part Identifier: STM32U585
+- Product Title: STMicroelectronics Ultra-Low-Power Cortex-M33 MCU
+- Semiconductor Classification: Microcontroller
+- Original Manufacturer: STMicroelectronics
+- Physical Packaging: LQFP-100 (14x14mm)
+- Thermal Operating Specification: -40°C to +85°C
+
+## 2. Processing Core & Architectural Profile
+- Core Architecture: 32-bit Arm Cortex-M33 with TrustZone
+- Peak Operating Clock: 160 MHz
+- Integrated Non-Volatile Flash: 2048 KB
+- High-Speed Static RAM (SRAM): 786 KB
+
+## 3. Electrical & Power Ratings
+- Minimum Recommended Supply Voltage: 1.71 V
+- Maximum Recommended Supply Voltage: 3.6 V
+- Typical Active Operating Current: 19.0 mA (at nominal clock)
+- Low-Power Sleep / Leakage Current: 1.2 uA (deep standby)
+
+## 4. Hardware Interfaces & Peripheral Buses
+- Supported Protocols and Busses: CAN-FD, USB-C FS, SPI, I2C, UART, SAI
+
+## 5. System Interoperability & Companion ICs
+- Verified Compatible Companion Devices: BME688-MEMS, ATECC608A-TNGTLS
+- Primary Deployment Target Verticals: Battery-Powered Industrial IoT, Smart Energy Meters, Portable Medical Devices
+
+## 6. Critical Silicon Errata & Engineering Guidelines
+Low-power autonomous peripherals (LPBAM) require background SRAM4 retention voltage enabled in PWR register before entering Stop 3 sleep state. Ensure USB Type-C CC pins have pull-down terminations.

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "cr_001",
+    "community": 1,
+    "title": "Wireless Edge AI & Sensory Fusion",
+    "summary": "High-integration wireless processing and environmental gas telemetry cluster centered around dual-core Xtensa AI SoCs and MEMS multisensors.",
+    "findings": [
+      "ESP32-S3 links to BME688 over shared I2C and SPI buses for real-time indoor air quality (IAQ) and edge AI olfactory inferencing.",
+      "GPIO34..39 input-only silicon constraint requires dedicated external pull-ups when interfacing with multi-drop sensor buses."
+    ],
+    "rating": 8.8,
+    "rating_explanation": "Cohesive synergy between wireless edge machine learning and precision environmental air classification."
+  },
+  {
+    "id": "cr_002",
+    "community": 2,
+    "title": "High-Performance Industrial Automation & Telemetry",
+    "summary": "Dual-issue 480 MHz Cortex-M7 microcontroller cluster optimized for real-time determinism, industrial CAN-FD fieldbuses, and low-latency audio.",
+    "findings": [
+      "STM32H743ZI provides high computational throughput (2048 KB Flash, 1024 KB SRAM) for robotics, industrial controllers, and motor drives.",
+      "Errata ES0392 requires AHB bus arbitration management to avoid AXI SRAM DMA clock stalls."
+    ],
+    "rating": 9.2,
+    "rating_explanation": "Essential architectural backbone for mission-critical industrial manufacturing and high-throughput real-time control."
+  },
+  {
+    "id": "cr_003",
+    "community": 3,
+    "title": "Hardware Cryptographic Root-of-Trust & Security",
+    "summary": "Dedicated hardware security coprocessor providing secure boot, zero-touch cloud provisioning, ECDSA signing, and tamper-resistant storage.",
+    "findings": [
+      "Interoperates as an external security companion for ESP32-S3, STM32H743ZI, and nRF52840.",
+      "Wake token requirement: SDA must be driven low for at least 60 microseconds prior to standard I2C transactions."
+    ],
+    "rating": 9.5,
+    "rating_explanation": "Crucial trust anchor preventing device counterfeiting, credential theft, and unauthorized firmware flashes across IoT deployments."
+  },
+  {
+    "id": "cr_004",
+    "community": 4,
+    "title": "Multi-Protocol Low-Power Mesh & Wearable Wireless",
+    "summary": "Comprehensive 2.4 GHz multi-protocol mesh networking and Bluetooth 5.3 SoC designed for medical wearables, smart lighting, and asset tags.",
+    "findings": [
+      "Ultra-low standby current (0.4 uA) with multi-protocol concurrency between BLE, Thread, and Zigbee.",
+      "PAN-214 errata mandates ground stitching around matching capacitors to suppress high-power DC-DC ripple."
+    ],
+    "rating": 8.9,
+    "rating_explanation": "Industry standard for ultra-low-power consumer, healthcare, and industrial wireless mesh fabrics."
+  },
+  {
+    "id": "cr_005",
+    "community": 5,
+    "title": "Ultra-Low-Power Autonomous Edge Control",
+    "summary": "Next-generation energy-harvesting and battery-powered Cortex-M33 microcontroller featuring Arm TrustZone hardware isolation and autonomous peripherals.",
+    "findings": [
+      "Active LPBAM autonomous direct-memory transfers allow peripheral polling while main CPU remains in Stop 3 sleep.",
+      "Standby sleep current under 1.2 uA with full retention of critical SRAM blocks."
+    ],
+    "rating": 8.7,
+    "rating_explanation": "High-efficiency processing for energy-constrained smart water/gas meters and remote industrial monitors."
+  },
+  {
+    "id": "cr_006",
+    "community": 6,
+    "title": "Multiprotocol Sub-1GHz Infrastructure & Smart Grid",
+    "summary": "Dual-band wireless SoC pairing a Cortex-M4F application processor with a dedicated autonomous sensor controller engine for long-range Sub-1GHz RF.",
+    "findings": [
+      "0.9 uA standby leakage allows multi-year coin-cell operation in municipal metering and building automation.",
+      "Sensor Controller Engine executes ADC polling independently without waking the primary ARM CPU."
+    ],
+    "rating": 8.5,
+    "rating_explanation": "Robust long-range RF propagation penetration through concrete walls for smart utility grid networks."
+  },
+  {
+    "id": "cr_007",
+    "community": 7,
+    "title": "Dual-Core Biosensing & Hearable Computing",
+    "summary": "Dual-core ultra-low-power wearable processor with dedicated SIMO buck regulator architecture tailored for clinical patient monitors and hearing aids.",
+    "findings": [
+      "Wafer-level packaging (4.4x4.4mm) with dual-core lockstep security or asymmetric audio DSP task distribution.",
+      "Requires careful SIMO regulator output power sequencing during cold start."
+    ],
+    "rating": 8.6,
+    "rating_explanation": "Specialized architecture for miniaturized, life-critical bio-wearables requiring continuous ECG/PPG sampling."
+  },
+  {
+    "id": "cr_008",
+    "community": 8,
+    "title": "Programmable Edge I/O & Long-Range LoRa Subsystems",
+    "summary": "Synergistic cluster combining flexible PIO state machines on RP2040 with Semtech SX1262 long-range Sub-GHz LoRa modulation up to +22 dBm.",
+    "findings": [
+      "RP2040 Programmable I/O handles bit-banging and non-standard protocol decoders without CPU overhead.",
+      "SX1262 requires low-ESR bulk capacitance to handle up to 118 mA burst current during high-power LoRa packet transmission."
+    ],
+    "rating": 8.8,
+    "rating_explanation": "Extensible modular prototyping and kilometer-range IoT telemetry for smart agriculture and remote sensors."
+  }
+]

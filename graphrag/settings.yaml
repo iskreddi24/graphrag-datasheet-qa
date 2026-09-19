@@ -1,0 +1,89 @@
+# Microsoft GraphRAG v3.x Configuration Specification
+# Semiconductor Datasheet Knowledge Graph Pipeline
+
+version: 3.1.2
+
+input:
+  type: file
+  file_type: text
+  base_dir: "input"
+  file_pattern: ".*\\.txt$"
+
+output:
+  type: file
+  base_dir: "output"
+
+cache:
+  type: file
+  base_dir: "cache"
+
+chunks:
+  size: 1200
+  overlap: 100
+  group_by_columns: [id]
+
+encoding_model: "cl100k_base"
+
+llm:
+  api_key: ${GRAPHRAG_API_KEY}
+  type: openai_chat
+  model: gpt-4o-mini
+  max_tokens: 4000
+  temperature: 0.0
+  request_timeout: 180.0
+
+embeddings:
+  async_mode: threaded
+  llm:
+    api_key: ${GRAPHRAG_API_KEY}
+    type: openai_embedding
+    model: text-embedding-3-small
+
+entity_extraction:
+  prompt: "prompts/entity_extraction.txt"
+  entity_types:
+    - COMPONENT
+    - MANUFACTURER
+    - PROTOCOL
+    - CORE_ARCHITECTURE
+    - APPLICATION_DOMAIN
+    - PACKAGE_TYPE
+  max_gleanings: 1
+
+community_reports:
+  prompt: "prompts/community_report.txt"
+  max_length: 2000
+  max_input_length: 8000
+
+cluster_graph:
+  max_cluster_size: 10
+  use_lcc: true
+  seed: 42
+
+snapshots:
+  graphml: true
+  raw_entities: true
+  top_level_nodes: true
+
+local_search:
+  text_unit_prop: 0.5
+  community_prop: 0.1
+  conversation_history_max_turns: 5
+  top_k_mapped_entities: 10
+  top_k_relationships: 10
+  include_entity_rank: true
+  include_relationship_weight: true
+  return_candidate_context: true
+
+global_search:
+  max_tokens: 12000
+  data_max_tokens: 12000
+  map_prompt: "prompts/global_search_map_system_prompt.txt"
+  reduce_prompt: "prompts/global_search_reduce_system_prompt.txt"
+  concurrency: 8
+
+drift_search:
+  prompt: "prompts/drift_search_system_prompt.txt"
+  temperature: 0.0
+  top_k_followups: 3
+  max_hops: 2

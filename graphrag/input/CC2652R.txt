@@ -1,0 +1,31 @@
+# Semiconductor Technical Datasheet: CC2652R
+
+## 1. Product Overview & Identity
+- Part Identifier: CC2652R
+- Product Title: Texas Instruments SimpleLink Multiprotocol Wireless MCU
+- Semiconductor Classification: Wireless SoC
+- Original Manufacturer: Texas Instruments
+- Physical Packaging: QFN-48 (7x7mm)
+- Thermal Operating Specification: -40°C to +105°C
+
+## 2. Processing Core & Architectural Profile
+- Core Architecture: 32-bit Arm Cortex-M4F + Sensor Controller Engine
+- Peak Operating Clock: 48 MHz
+- Integrated Non-Volatile Flash: 352 KB
+- High-Speed Static RAM (SRAM): 80 KB
+
+## 3. Electrical & Power Ratings
+- Minimum Recommended Supply Voltage: 1.8 V
+- Maximum Recommended Supply Voltage: 3.8 V
+- Typical Active Operating Current: 6.9 mA (at nominal clock)
+- Low-Power Sleep / Leakage Current: 0.9 uA (deep standby)
+
+## 4. Hardware Interfaces & Peripheral Buses
+- Supported Protocols and Busses: BLE 5.2, Thread, Zigbee, Sub-1GHz, SPI, I2C, UART
+
+## 5. System Interoperability & Companion ICs
+- Verified Compatible Companion Devices: BME688-MEMS, SX1262-LORA
+- Primary Deployment Target Verticals: Building Automation, Smart Metering, Grid Infrastructure, Wireless Sensor Networks
+
+## 6. Critical Silicon Errata & Engineering Guidelines
+Sub-1GHz RF impedance match requires differential balun filter network. Sensor Controller Engine autonomous tasks must preserve memory boundaries to avoid overwriting shared system RAM buffers.

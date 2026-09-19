@@ -1,0 +1,82 @@
+[
+  {
+    "id": "tu_001",
+    "text": "Datasheet record for ESP32-S3-WROOM-1: Espressif ESP32-S3 Dual-Core AI SoC. Category: Wireless SoC. Manufacturer: Espressif Systems. Protocols: Wi-Fi 802.11 b/g/n, BLE 5.0, SPI, I2C, UART, USB-OTG. Errata: GPIO34 through GPIO39 are input-only and lack internal weak pull-up/pull-down resistors. Dedicated decoupling capacitors (10uF + 0.1uF) required close to VDD33 pins to prevent brownout during Wi-Fi calibration bursts.",
+    "entity_ids": [
+      "ent_001"
+    ],
+    "document_id": "doc_001"
+  },
+  {
+    "id": "tu_002",
+    "text": "Datasheet record for STM32H743ZI: STMicroelectronics STM32H7 High-Performance MCU. Category: Microcontroller. Manufacturer: STMicroelectronics. Protocols: CAN-FD, SPI, I2C, UART, Ethernet 10/100, USB-OTG, SAI. Errata: Errata ES0392: AXI SRAM concurrent DMA reads during high-speed burst transfers may cause clock synchronization stalls unless AHB priority arbitration is configured. External SMPS power supply requires 4.7uH inductor.",
+    "entity_ids": [
+      "ent_010"
+    ],
+    "document_id": "doc_002"
+  },
+  {
+    "id": "tu_003",
+    "text": "Datasheet record for BME688-MEMS: Bosch BME688 4-in-1 Gas Sensor with AI. Category: MEMS Sensor. Manufacturer: Bosch Sensortec. Protocols: I2C, SPI. Errata: Gas scanner hot-plate heater requires pulsed drive timing; continuous heater activation above 400\u00b0C degrades sensitive layer longevity. Ensure solder flux residues are ultrasonic cleaned to avoid baseline VOC drift.",
+    "entity_ids": [
+      "ent_016"
+    ],
+    "document_id": "doc_003"
+  },
+  {
+    "id": "tu_004",
+    "text": "Datasheet record for ATECC608A-TNGTLS: Microchip CryptoAuthentication Hardware Security Element. Category: Hardware Security Element. Manufacturer: Microchip Technology. Protocols: I2C, Single-Wire Interface (SWI). Errata: Wake token requires SDA line driven LOW for minimum 60 microseconds before first I2C packet transmission. Configuration zone locks permanently after final production commissioning; test in unlocked development zone first.",
+    "entity_ids": [
+      "ent_019"
+    ],
+    "document_id": "doc_004"
+  },
+  {
+    "id": "tu_005",
+    "text": "Datasheet record for nRF52840: Nordic Semiconductor Multi-Protocol Bluetooth 5.3 SoC. Category: Wireless SoC. Manufacturer: Nordic Semiconductor. Protocols: BLE 5.3, Thread, Zigbee, NFC, USB 2.0, SPI, I2C, UART. Errata: Errata PAN-214: High DC-DC converter regulator ripple during high transmit power (+8 dBm) requires strict PCB ground stitching around C16/C17 matching network. NFC antenna pins NFC1/NFC2 default to NFC mode; reconfigure in UICR for standard GPIO usage.",
+    "entity_ids": [
+      "ent_023"
+    ],
+    "document_id": "doc_005"
+  },
+  {
+    "id": "tu_006",
+    "text": "Datasheet record for STM32U585: STMicroelectronics Ultra-Low-Power Cortex-M33 MCU. Category: Microcontroller. Manufacturer: STMicroelectronics. Protocols: CAN-FD, USB-C FS, SPI, I2C, UART, SAI. Errata: Low-power autonomous peripherals (LPBAM) require background SRAM4 retention voltage enabled in PWR register before entering Stop 3 sleep state. Ensure USB Type-C CC pins have pull-down terminations.",
+    "entity_ids": [
+      "ent_031"
+    ],
+    "document_id": "doc_006"
+  },
+  {
+    "id": "tu_007",
+    "text": "Datasheet record for CC2652R: Texas Instruments SimpleLink Multiprotocol Wireless MCU. Category: Wireless SoC. Manufacturer: Texas Instruments. Protocols: BLE 5.2, Thread, Zigbee, Sub-1GHz, SPI, I2C, UART. Errata: Sub-1GHz RF impedance match requires differential balun filter network. Sensor Controller Engine autonomous tasks must preserve memory boundaries to avoid overwriting shared system RAM buffers.",
+    "entity_ids": [
+      "ent_034"
+    ],
+    "document_id": "doc_007"
+  },
+  {
+    "id": "tu_008",
+    "text": "Datasheet record for MAX32666: Analog Devices / Maxim Low-Power Dual-Core BLE MCU. Category: Wireless SoC. Manufacturer: Analog Devices. Protocols: BLE 5.2, SPI, I2C, UART, 1-Wire, USB-FS. Errata: SIMO buck regulator output voltages must be sequenced in strict order (VREG1 -> VREG2) during cold power-on. Wafer-Level Packaging (WLP) requires underfill epoxy to mitigate solder fatigue in thermal cycling.",
+    "entity_ids": [
+      "ent_039"
+    ],
+    "document_id": "doc_008"
+  },
+  {
+    "id": "tu_009",
+    "text": "Datasheet record for RP2040: Raspberry Pi RP2040 Dual Cortex-M0+ Microcontroller. Category: Microcontroller. Manufacturer: Raspberry Pi Ltd. Protocols: SPI, I2C, UART, USB 1.1, PIO. Errata: RP2040-E5 errata: USB bootloader pull-up resistor anomaly on early silicon stepping requires external 1k pull-up resistor or software work-around. Lacks on-chip non-volatile flash; requires external QSPI Flash memory (Winbond W25Q16/W25Q32).",
+    "entity_ids": [
+      "ent_044"
+    ],
+    "document_id": "doc_009"
+  },
+  {
+    "id": "tu_010",
+    "text": "Datasheet record for SX1262-LORA: Semtech SX1262 Long-Range Sub-GHz RF Transceiver. Category: RF Transceiver. Manufacturer: Semtech Corporation. Protocols: SPI. Errata: High transmit power output (+22 dBm) causes substantial peak current consumption (up to 118 mA). Must implement low-ESR bulk capacitance on VBAT_RF and ensure antenna matching network complies with ETSI/FCC harmonics limits.",
+    "entity_ids": [
+      "ent_049"
+    ],
+    "document_id": "doc_010"
+  }
+]

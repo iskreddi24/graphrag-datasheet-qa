@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Edge AI & Sensory Fusion",
+    "size": 7,
+    "rating": 8.8
+  },
+  {
+    "id": 2,
+    "title": "High-Performance Industrial Automation & Telemetry",
+    "size": 6,
+    "rating": 9.2
+  },
+  {
+    "id": 3,
+    "title": "Hardware Cryptographic Root-of-Trust & Security",
+    "size": 4,
+    "rating": 9.5
+  },
+  {
+    "id": 4,
+    "title": "Multi-Protocol Low-Power Mesh & Wearable Wireless",
+    "size": 8,
+    "rating": 8.9
+  },
+  {
+    "id": 5,
+    "title": "Ultra-Low-Power Autonomous Edge Control",
+    "size": 3,
+    "rating": 8.7
+  },
+  {
+    "id": 6,
+    "title": "Multiprotocol Sub-1GHz Infrastructure & Smart Grid",
+    "size": 4,
+    "rating": 8.5
+  },
+  {
+    "id": 7,
+    "title": "Dual-Core Biosensing & Hearable Computing",
+    "size": 5,
+    "rating": 8.6
+  },
+  {
+    "id": 8,
+    "title": "Programmable Edge I/O & Long-Range LoRa Subsystems",
+    "size": 8,
+    "rating": 8.8
+  }
+]
